@@ -23,11 +23,107 @@
 
   100%
     transform: translateX(0px)
-
+// TAMAÑO IMAGENES //
+.img18
+   max-width: 18px !important
+.img30
+   max-width: 30px !important
+.img40
+  max-width: 40px !important
+.img50
+  max-width: 50px !important
+.img60
+  max-width: 60px !important
+.img70
+   max-width: 70px !important
+.img80
+   max-width: 80px !important
+.img90
+  max-width: 90px !important
+.img100
+  max-width: 100px !important
+.img120
+  max-width: 120px !important
+.img140
+  max-width: 140px !important
+.img160
+  max-width: 160px !important
+.img180
+  max-width: 180px !important
+.img200
+  max-width: 200px !important
+.img250
+  max-width: 250px !important
+.img300
+  max-width: 300px !important
+.img350
+  max-width: 350px !important
+.img400
+  max-width: 400px !important
+.img420
+  max-width: 420px !important
+.img450
+  max-width: 450px !important
+.img600
+  max-width: 600px !important
+.img700
+  max-width: 700px !important
+.img800
+  max-width: 800px !important
+.img900
+  max-width: 900px !important
+//COLOR CONTENIDOS//
+.colr
+  color: $color-acento-contenido
+  &_1
+    color: #285D42
 //BACKGROUND//
 .bgr
   background-color: $color-adicional-1
-  
+  &_1
+    background-color: #D5CEED
+    &::before
+      background-color: #583CB6
+  &_2
+    background-color: #FBEED3
+  &_3
+    background-color: #FDF5E5
+    border-bottom-left-radius: 10px
+    border-bottom-right-radius: 10px
+  &_4
+    background-color: $color-primario
+    width: fit-content
+  &_5
+    background-color: #F4F0FF
+  &_6
+    background-color: white
+    border-radius: 50px
+  &_7
+    background-color: #E2D9FF
+    border-radius: 10px
+  &_8
+    background-color: #FAEBCD
+    border-radius: 10px
+  &_9
+    background-color: #FAF5EA
+  &_10
+    background-color: #FDEEE5
+    border-radius: 10px
+    &:hover
+      background-color: #FAD6C3
+  &_11
+    background-color: #FDF5E5
+  &_12
+    background-color: #FDEEE5
+  &_13
+    background-color: $color-acento-contenido
+    &::before
+      background-color: #FAEBCD
+      left: 62%
+  &_14
+    background-color: #C1E7FA
+  &_15
+    background-color: #E3F0E9
 //FONDOS COMPLETOS DE CONTENIDO//
 .bg_grad-01
   position: relative
@@ -42,3 +138,78 @@
     width: calc( 100% + 6rem)
     height: 85%
     background-color: #F4F0FF
+.bg_grad-02
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(244,240,255,1) 10%, rgba(244,240,255,1) 90%, rgba(255,255,255,1) 100%)
+.bg_grad-03
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 14%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 90%
+    background-color: #FDF5E5
+.bg_grad-04
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 10%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 93%
+    background-color: #F4F0FF
+.bg_grad-05
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(253,245,229,1) 10%, rgba(253,245,229,1) 90%, rgba(255,255,255,1) 100%);
+//POSICION EN PATANLLA//
+.pst
+  .tarjeta-avatar .tarjeta
+    padding-top: 130px !important
+    border-radius: 10px
+  &_1
+    .bloque-texto-g__img
+      width: 37%
+    .bloque-texto-g__texto
+      width: 67%
+//CLASES SOBREESCRITAS//
+//SLIDERS TIPO B//
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-image: url("../assets/componentes/arrow1.svg")
+  background-color: $color-acento-contenido
+.slyder-a__bullets__item--active 
+  background-color: $color-acento-contenido !important
+  border-color: $color-acento-contenido !important
+.slyder-a__bullets__item
+  background-color: #D8C3FF
+
+
+
