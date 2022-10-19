@@ -33,15 +33,13 @@
         .tarjeta-avatar
           img.img200.w-100(src='@/assets/curso/tema1/t1-2.svg' alt='AvatarTop')
           .tarjeta.color-primario
-            .p-4.bgr_3
-              h2.text-center 
+            .p-4.bgr_3.h-100
               p.mb-0 Acciones como el uso del agua, la limitación de ríos, la sobrepoblación humana, el uso de fertilizantes en los cultivos, la cantidad de vehículos, el uso del papel, entre otros; han definido la era actual (antropoceno) de nuestro planeta desde los años cincuenta.
       .col-12.col-lg-5.pst
         .tarjeta-avatar
           img.img200.w-100(src='@/assets/curso/tema1/t1-3.svg' alt='AvatarTop')
           .tarjeta.color-secundario
             .p-4.bgr_3.h-100
-              h2.text-center 
               p.mb-0 Antropoceno significa la época geológica definida por el impacto de la humanidad sobre la Tierra, donde las actividades del hombre han transformado fuertemente al sistema global que persevera la vida en el planeta. 
     
     p.mb-5 Si los límites ecológicos exceden sus topes, pueden existir consecuencias catastróficas o destructivas en el planeta, estos se relacionan con la extinción de flora y fauna, la concentración de gases como el nitrógeno y el fósforo en la atmósfera y en los océanos, la reducción del ozono estratosférico, la acidificación de océanos, los cambios en la utilización de la tierra, el uso de agua dulce, la contaminación química y la carga de aerosol en la atmósfera. En el siguiente gráfico se muestran los límites en la Tierra impuestos por la naturaleza y el desarrollo:
@@ -52,7 +50,6 @@
           .titulo-sexto.color-acento-contenido
             h5 Figura 2
             span Límites planetarios
-          
           figura
             img(src='@/assets/curso/tema1/t1-4.svg' alt='Texto que describa la imagen') 
             figcaption.mt-3 Nota. Límites planetarios. Adaptado de Rodríguez M. (2017). Los límites impuestos por la naturaleza y el desarrollo. Pág. 20.
