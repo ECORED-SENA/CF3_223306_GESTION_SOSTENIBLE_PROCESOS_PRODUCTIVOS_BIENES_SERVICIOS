@@ -109,7 +109,7 @@
           .tarjeta.bgr_7
             .row.justify-content-center
               .col-6
-                h4.p-4.text-center.bgr_6.p-3   Ciclos Hidrológicos
+                h4.p-4.text-center.bgr_6   Ciclos Hidrológicos
             p.p-4.mb-0 Son aquellos en los que participa el agua. Funciona de intermediario para el transporte de los componentes de un lugar a otro. El ciclo del agua pertenece a esta categoría.
       .col-12.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -117,7 +117,7 @@
           .tarjeta.bgr_8
             .row.justify-content-center.mb-4
               .col-7
-                h4.p-4.text-center.bgr_6.p-3  Ciclos Gaseosos
+                h4.p-4.text-center.bgr_6  Ciclos Gaseosos
             p.p-4.mb-0 Son aquellos en los que participa la atmósfera para el transporte de los componentes químicos del ciclo; el ciclo del oxígeno, carbono y nitrógeno, son pertenecientes de esta categoría.
       .col-12.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -125,7 +125,7 @@
           .tarjeta.bgr_7
             .row.justify-content-center
               .col-7
-                h4.p-4.text-center.bgr_6.p-3  Ciclos Sedimentarios
+                h4.p-4.text-center.bgr_6  Ciclos Sedimentarios
             p.p-4.mb-0 Son aquellos en los que el transporte del componente químico resulta por sedimentación, es decir, por su reducida acumulación e intercambio en la corteza terrestre, en particular, el ciclo del fósforo.
     
     .bgr_5.p-4.mb-5

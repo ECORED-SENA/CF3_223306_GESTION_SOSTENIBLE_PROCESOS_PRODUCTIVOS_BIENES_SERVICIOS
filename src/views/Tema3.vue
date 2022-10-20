@@ -28,7 +28,7 @@
     .tarjeta.color-primario.p-3
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema2/t2-10.svg")
+          img(src="@/assets/componentes/dwv.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0

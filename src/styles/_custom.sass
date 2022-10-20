@@ -77,6 +77,8 @@
   color: $color-acento-contenido
   &_1
     color: #285D42
+  &_2
+    color: $color-secundario
   
 //BACKGROUND//
 .bgr
@@ -153,6 +155,24 @@
     background-color: #FAEBCD
     border-top-right-radius: 10px
     border-bottom-right-radius: 10px
+  &_25
+    background-color: $color-secundario
+  &_26
+    background-color: #FAEBCD
+  &_27
+    background-color: $color-primario
+  &_28
+    background-color: #FAE8C2
+    border-radius: 20px
+  &_29
+    width: 60%
+    margin-left: 20%
+    border-color: $color-sistema-texto
+    opacity: 1
+    height: 1.5px !important
+  &_30
+    border-left: 1px solid $color-sistema-texto
+
   
 //FONDOS COMPLETOS DE CONTENIDO//
 .bg_grad-01
@@ -325,6 +345,86 @@
     width: calc(100% + 6rem)
     height: 100%
     background-color: #F5F2FF
+.bg_grad-14
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-color: #FDF5E5
+.bg_grad-15
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc(100% + 6rem)
+    height: 100%
+    background-color: #F5F2FF
+.bg_grad-16
+  position: relative
+  .row, figura
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema4/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-17
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 15%
+    width: calc( 100% + 6rem)
+    height: 97%
+    background-color: #E2D9FF
+.bg_grad-18
+  position: relative
+  .row, .titulo-sexto
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -5%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 3rem)
+    background-color: #F4F0FF
+.bg_grad-19
+  position: relative
+  figura, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 69px
+    left: 81px
+    width: 20%
+    height: 27%
+    background-color: #F0ECFF
 //POSICION EN PATANLLA//
 .pst
   .tarjeta-avatar .tarjeta
@@ -339,6 +439,23 @@
     .tarjeta-avatar .tarjeta
       padding-top: 175px !important
       border-radius: 10px
+  &_3
+    position: absolute
+    top: 10px
+    left: 10px
+    width: 33px
+  &_4
+    position: absolute
+    bottom: 10px
+    right: 10px
+    width: 28px
+  &_5
+    margin-top: 25%
+  &_6
+    .tarjeta-avatar
+      img
+        top: 8%
+
 //CLASES SOBREESCRITAS//
 //SLIDERS TIPO B//
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
