@@ -35,7 +35,7 @@
               h3.mb-1 La economía circular en 4 minutos
               p.text-small Para ampliar el tema sobre la Economía circular, se recomienda ver el video sobre: “La economía circular en 4 minutos” que se encuentra en el material complementario de este componente formativo. 
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=ZEgLWrMJd2M" target="_blank")
                 span Ir al enlace
     
     separador

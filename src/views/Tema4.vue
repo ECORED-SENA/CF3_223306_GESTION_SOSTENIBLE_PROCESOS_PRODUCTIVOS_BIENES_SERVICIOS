@@ -63,7 +63,7 @@
               h3.mb-1 Bioeconomía ¿Qué es la bioeconomía?
               p.text-small Para ampliar este tema, se recomienda ver el video de Ecología Verde sobre: “Bioeconomía ¿Qué es la bioeconomía?” que se encuentra en el material complementario.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=M6Kl1IKEytM" target="_blank")
                 span Ir al enlace
     
     separador
@@ -268,13 +268,16 @@
             p Volumen de demanda total estimadol
         tr
           td(rowspan="2") Uso eficiente y sostenible del agua.
-          td.bgr_22.text-center % reducción de volumen usado Volumen concesionado-Volumen captado
+          td.bgr_22.text-center % reducción de volumen usado 
+            p Volumen concesionado-Volumen captado
             hr.bgr_29
             p Volumen concesionado
         tr
-          td.text-center Volumen de agua medido
+          td.text-center Número de PUEAA implementado por sector
             hr.bgr_29
-            p Volumen de demanda total estimado
+            p.mb-0 Número de PUEAA priorizados por sector 
+            P en el Plan Hídrico Nacional
+
         tr
           td Incorporación de la gestión de los riesgos asociados a la disponibilidad y oferta del recurso hídrico en los instrumentos de planificación.
           td.bgr_22  Número de municipios con índice de escasez en los rangos “medio” y “alto” que cuentan con programa de uso eficiente y ahorro del agua/ número total de municipios con índice de escasez en los rangos “medio” y “alto”.

@@ -77,7 +77,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span 4
-              | Marketing y ventas: está conformada por las estrategias pertinentes para mejorar la imagen y llegar de manera adecuada a los clientes, por medio de la publicidad, la promoción y la fijación de precios.
+              span <em>Marketing</em> y ventas: está conformada por las estrategias pertinentes para mejorar la imagen y llegar de manera adecuada a los clientes, por medio de la publicidad, la promoción y la fijación de precios.
             li 
               .lista-ol--cuadro__vineta
                 span 15              
@@ -119,7 +119,7 @@
               h3.mb-1 ¿Qué es una cadena de valor?
               p.text-small Para ampliar el tema sobre la cadena de valor, se recomienda ver en el material complementario, el video de la Unidad de Desarrollo productivo, “¿Qué es una cadena de valor?”. 
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=1TTImw_WLWY" target="_blank")
                 span Ir al enlace
     
     separador
@@ -146,10 +146,10 @@
                 img(src='@/assets/curso/tema5/t5-7.svg', alt='Texto que describa la imagen')
             .tarjeta.bgr_12.p-3(x="4%" y="98%" numero="+")
               .h5.mb-2 Introducción: 
-              p.mb-0 Es una etapa creada después del desarrollo del producto e incluye una etapa de inicio lento para las ventas. Esto sucede mientras lleva tiempo darse a conocer a los consumidores. La desventaja es la necesidad de invertir mucho en marketing y comunicaciones. Por lo tanto, para aumentar la visibilidad de la oferta y ganar los primeros clientes, es necesario realizar campañas promocionales  con promociones agresivas.
+              p.mb-0 Es una etapa creada después del desarrollo del producto e incluye una etapa de inicio lento para las ventas. Esto sucede mientras lleva tiempo darse a conocer a los consumidores. La desventaja es la necesidad de invertir mucho en <em>marketing</em> y comunicaciones. Por lo tanto, para aumentar la visibilidad de la oferta y ganar los primeros clientes, es necesario realizar campañas promocionales  con promociones agresivas.
             .tarjeta.bgr_12.p-3(x="27%" y="98%" numero="+")
               .h5.mb-2 Crecimiento: 
-              p.mb-0 Es el período de crecimiento de las ventas que facilitará la recuperación de las inversiones anteriores. Durante este período, la competencia por el producto se vuelve notoria; por ello, es adecuado aplicar técnicas de market share y marketing mix para desarrollar la analítica de productos, la innovación y conquistar nuevos segmentos de mercado. Este es un movimiento estratégico porque la competencia se muestra a través de su imagen, relación con los clientes y posicionamiento.
+              p.mb-0 Es el período de crecimiento de las ventas que facilitará la recuperación de las inversiones anteriores. Durante este período, la competencia por el producto se vuelve notoria; por ello, es adecuado aplicar técnicas de <em>market share</em> y <em>marketing mix</em> para desarrollar la analítica de productos, la innovación y conquistar nuevos segmentos de mercado. Este es un movimiento estratégico porque la competencia se muestra a través de su imagen, relación con los clientes y posicionamiento.
             .tarjeta.bgr_12.p-3(x="60%" y="98%" numero="+")
               .h5.mb-2 Madurez: 
               p.mb-0 La demanda y los beneficios son mayores en esta etapa. La tasa de utilización del producto está en su tope. Sin embargo, es la etapa, que la competencia suele ser más intensa. La clave está en la diferenciación de la competencia, por lo tanto, es vital realizar inversiones en publicidad e identificar la satisfacción del cliente para aprovecharla al máximo y evitar un declive.
@@ -187,7 +187,7 @@
     .bg_grad-18
       .titulo-sexto.color-acento-contenido
         h5 Figura 10
-        span Beneficios de la RSE
+        span Ejemplo de Cadena de suministros de círculo cerrado
 
       .row
         .col-12.col-lg-6
@@ -251,8 +251,8 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.mb-1 Brain Logistics, Logística
-              p.text-small Para conocer más acerca de este tema, se recomienda ver el video de Brain Logistics, “Logística que se encuentra en el material complementario de este componente formativo. 
+              h3.mb-1 <em>Brain Logistics</em>, Logística
+              p.text-small Para conocer más acerca de este tema, se recomienda ver el video de <em>Brain Logistics</em>, “Logística que se encuentra en el material complementario de este componente formativo. 
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=qwZg7zLS_Ms" target="_blank")
                 span Ir al enlace

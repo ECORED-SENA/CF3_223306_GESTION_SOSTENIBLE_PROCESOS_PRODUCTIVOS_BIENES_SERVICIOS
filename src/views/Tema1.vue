@@ -208,7 +208,7 @@
             img.img120(src='@/assets/curso/tema1/t1-17.svg', alt='Texto que describa la imagen')
           .text-center
             h4 Descomponedores
-          p son los que transforman los residuos orgánicos e inorgánicos en materia después de haber sido usada por los productores como son las bacterias y hongos.
+          p Son los que transforman los residuos orgánicos e inorgánicos en materia después de haber sido usada por los productores como son las bacterias y hongos.
 
     p.mb-5 Estos procesos de transformación fluyen en un ecosistema para que la energía sea captada y fijada como materia por los productores y transmitirse al resto de los niveles mediante la relación de depredación obteniendo como resultado flujo de materia y energía del ecosistema. A continuación, se observan los niveles tróficos del ecosistema terrestre. 
 

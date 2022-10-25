@@ -130,10 +130,10 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.mb-1 Doughnut Economics | Una economía diseñada para prosperar
-              p.text-small Para ampliar el tema sobre la economía de rosquilla, se recomienda ver el video de Kate Raworth: “Doughnut Economics | Una economía diseñada para prosperar” que se encuentra en el material complementario de este componente formativo. 
+              h3.mb-1 <em>Doughnut Economics</em> | Una economía diseñada para prosperar
+              p.text-small Para ampliar el tema sobre la economía de rosquilla, se recomienda ver el video de Kate Raworth: “<em>Doughnut Economics</em> | Una economía diseñada para prosperar” que se encuentra en el material complementario de este componente formativo. 
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=CBaRe0Q5mL8" target="_blank")
                 span Ir al enlace
     
     separador
@@ -154,7 +154,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Z8XcVBhYPHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     h3.bgr_4.p-3.mb-5 Problemas identificados en la EBC
 
