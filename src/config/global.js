@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Ciclo de vida en los procesos de la organización y Economía Circular.',
+      'Ciclo de vida en los procesos de la organización y Economía Circular',
     descripcionCurso:
       'Este componente se centra en identificar las definiciones y teorías de los ecosistemas, cuáles son los modelos económicos, los principios y pensamientos de la economía circular, su marco normativo, incentivos y casos de éxito. Así mismo, conceptos de bioeconomía, tipo de materiales y productos sostenibles, responsabilidad social empresarial, cadena de valor y logística inversa.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),

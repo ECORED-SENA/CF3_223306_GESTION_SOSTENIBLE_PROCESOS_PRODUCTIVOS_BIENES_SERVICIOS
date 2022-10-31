@@ -18,8 +18,8 @@
               .bloque-texto-a__texto.p-4
                 p.mb-0 El sistema alimentario ocupa el lugar más relevante en la bioeconomía. Estos sistemas, que incluyen la agricultura sostenible, la pesca sostenible, la silvicultura y la acuicultura, así como la producción de alimentos y piensos (alimento para animales), se complementan con bioproductos y bioenergía. Los bioproductos incluyen bioplásticos, ropa biodegradable y otros productos relacionados con el diseño ecológico. La bioenergía, como la biomasa, una de las energías renovables, mejora la seguridad del suministro energético, reduce la dependencia de la energía y crea nuevas oportunidades de crecimiento y empleo.
     
-    .row.mb-5
-      .col-12.col-lg-8
+    .row.mb-5.d-flex.align-items-center
+      .col-12.col-lg-8.mb-3.mb-lg-0
         .bgr_2.p-5.mb-3.position-relative
           p Según la Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO), una bioeconomía es “la producción, el uso y la preservación de los recursos biológicos, incluidos el conocimiento, la ciencia, la tecnología y la innovación relacionada, para proporcionar información, productos, procesos y servicios para todos los sectores económicos hacia una economía sostenible”. 
           p.mb-0.text-bold (Iberdrola, 2021).
@@ -27,18 +27,18 @@
           img.pst_4(src='@/assets/componentes/rect.svg', alt='Texto que describa la imagen')
         p Para impulsar la bioeconomía se necesita una estrategia adecuada con el fin de elaborar un plan de acción en el que haya participación de instituciones locales, nacionales y organismos internaciones. Se requiere de un marco político que promueva el multilateralismo y reúna esfuerzos para llevarlo a cabo. Algunos lineamientos a seguir son:
       .col-12.col-lg-4
-        figure
-          img(src='@/assets/curso/tema4/t4-2.svg', alt='Texto que describa la imagen')
+        figure.d-flex.justify-content-center
+          img.w-auto(src='@/assets/curso/tema4/t4-2.svg', alt='Texto que describa la imagen')
 
     .row.mb-5
-      .col-12.col-lg-4
+      .col-12.col-lg-4.mb-3.mb-lg-0
         .bgr_25.p-4.h-100
           figure.d-flex.justify-content-center.mb-3
             img.img100(src='@/assets/curso/tema4/t4-3.svg', alt='Texto que describa la imagen')
           .text-center    
             p.text-bold.bgr_6 1. Incremento de inversiones en innovación, investigación y capacitación:
             p La investigación y su aplicación tienden a trabajar de manera independiente. Por esta razón, es importante fomentar la asociación con el sector público y privado.
-      .col-12.col-lg-4
+      .col-12.col-lg-4.mb-3.mb-lg-0
         .bgr_26.p-4.h-100
           figure.d-flex.justify-content-center.mb-3
             img.img100(src='@/assets/curso/tema4/t4-4.svg', alt='Texto que describa la imagen')
@@ -77,12 +77,12 @@
           p.mb-0 Es una estrategia ambiental enfocada hacia la prevención integrada donde se adoptan procesos, bienes o servicios con el objetivo de aumentar rendimientos y disminuir los riesgos para la humanidad y el medio ambiente. Su aplicación se puede llevar a cabo en cualquier proceso, bien o servicio; pueden ser sencillos cambios que son fáciles y se ejecutan de manera inmediata; o cambios más complejos cómo reemplazar materias primas, insumos o líneas de operación para ser más eficientes. Veamos una información adicional al respecto:
         .col-12.col-lg-2
           figure
-            img(src='@/assets/curso/tema4/t4-6.svg', alt='Texto que describa la imagen')
+            img.d-none.d-lg-flex(src='@/assets/curso/tema4/t4-6.svg', alt='Texto que describa la imagen')
     
     h3.bgr_4.p-3.mb-5 Producción más limpia en procesos y productos
 
     .row.mb-5
-      .col-12.col-lg-6
+      .col-12.col-lg-6.mb-3.mb-lg-0
         .bgr_27.p-4.h-100
           figure.mb-4
             img(src='@/assets/curso/tema4/t4-7.png', alt='Texto que describa la imagen')
@@ -97,8 +97,8 @@
     p.mb-5 Las metodologías más utilizadas en la incorporación de la Producción más Limpia son: 
 
     .bg_grad-15
-      .row.mb-5.p-5
-        .col-12.col-lg-6
+      .row.mb-5.p-3.p-lg-5
+        .col-12.col-md-6.col-lg-6.mb-3.mb-lg-0
           ol.lista-ol--cuadro
             li 
               .lista-ol--cuadro__vineta
@@ -132,9 +132,9 @@
               .lista-ol--cuadro__vineta
                 span h
               | Ciclo biógeno.
-        .col-12.col-lg-5
-          figura
-            img(src='@/assets/curso/tema4/t4-9.png' alt='Texto que describa la imagen')
+        .col-12.col-md-6.col-lg-5.d-flex.align-items-center
+          figura.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema4/t4-9.png' alt='Texto que describa la imagen')
 
     separador
 
@@ -145,7 +145,7 @@
       .row.mb-5
         .col-auto
           figura
-            img(src='@/assets/curso/tema4/t4-10.svg' alt='Texto que describa la imagen')
+            img.d-none.d-lg-flex(src='@/assets/curso/tema4/t4-10.svg' alt='Texto que describa la imagen')
         .col-12.col-lg-11.d-flex.align-items-center
           p.mb-0 Se presenta una mayor presión sobre los recursos hídricos, por lo que es importante promover e implementar un uso eficiente y económico del agua. El desarrollo e implementación de herramientas de gestión de recursos hídricos, es esencial para mejorar la demanda de agua, a fin de mantener la adaptabilidad de la cuenca y la alineación con el ciclo hidrológico, que garanticen la sostenibilidad de los recursos hídricos y terrestres y mejoren la disponibilidad y el acceso al agua. A nivel mundial es importante el uso eficiente del agua, por lo que se pretende asegurar la sostenibilidad de los recursos hídricos del mundo.
     
@@ -162,7 +162,7 @@
     h3.bgr_4.p-3.mb-5 Ahorro y uso eficiente del agua y la energía
 
     .row.mb-5
-      .col-12.col-lg-4
+      .col-12.col-lg-4.mb-3.mb-lg-0
         .bgr_28.p-4.h-100
           figura.d-flex.justify-content-center
             img.img140.mb-3(src='@/assets/curso/tema4/t4-14.svg' alt='Texto que describa la imagen')
@@ -170,7 +170,7 @@
             .col-8
               h4.p-2.text-center.bgr_6 PUEAA
           p.mb-0 El Programa de Eficiencia y Conservación del Agua (PUEAA), es un mecanismo enfocado a mejorar el uso de los recursos hídricos y abarca una amplia gama de proyectos y acciones que deben desarrollar e implementar quienes necesitan concesiones de agua, para promover la sustentabilidad de los recursos hídricos.
-      .col-12.col-lg-4
+      .col-12.col-lg-4.mb-3.mb-lg-0
         .bgr_12.tarjeta.p-4.h-100
           figura.d-flex.justify-content-center
             img.img140.mb-3(src='@/assets/curso/tema4/t4-15.svg' alt='Texto que describa la imagen')
@@ -193,12 +193,12 @@
       h2 4.3 Indicadores de uso de los recursos naturales
     
     .row.mb-5
-      .col-12.col-lg-7
+      .col-12.col-lg-7.order-2.order-lg-1
         p Facilitan el seguimiento y trazabilidad de lo reportado a través de estudios realizados por la Organización para la Cooperación y el Desarrollo Económico OCDE y están diseñados para alinearse con la estrategia de incorporación de los objetivos de desarrollo sostenible en Colombia. 
         p.mb-0 Estos indicadores explican dos tipos de acciones: primero, los indicadores de gestión que miden el progreso en la adopción de herramientas y actividades para lograr la transición hacia una economía circular; segundo, los indicadores de desempeño que muestran el avance real de la economía circular en términos de uso de materias primas y aumento de la eficiencia metabólica de la economía colombiana. La siguiente tabla presenta los indicadores y metas cíclicas específicas para cada flujo de material y flujo de trabajo:
-      .col-12.col-lg-5
-        figura
-          img(src='@/assets/curso/tema4/t4-17.png' alt='Texto que describa la imagen')
+      .col-12.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0
+        figura.d-flex.justify-content-center
+          img.w-auto(src='@/assets/curso/tema4/t4-17.png' alt='Texto que describa la imagen')
     
     .row.justify-content-center
       .col-12.col-lg-8
@@ -238,9 +238,9 @@
     
     .bg_grad-04
       .row.mb-5.justify-content-between
-        .col-12.col-lg-3
-          figura
-            img(src='@/assets/curso/tema4/t4-18.svg' alt='Texto que describa la imagen')
+        .col-12.col-lg-3.mb-3.mb-lg-0
+          figura.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema4/t4-18.svg' alt='Texto que describa la imagen')
         .col-12.col-lg-8.d-flex.align-items-center
           p.mb-0 Mediante de instrumentos técnicos y normativos tales como políticas, resoluciones y el documento Conpes 3934 de 2018: Crecimiento verde, se han determinado indicadores asociados con el uso eficiente y ahorro del agua, de las cuales son los siguientes: 
 
@@ -340,16 +340,16 @@
       h2 4.5	Responsabilidad social empresarial
 
     .row.mb-5
-      .col-12.col-lg-8
+      .col-12.col-lg-8.mb-3.mb-lg-0.order-2.order-lg-1
         .bgr_2.p-5.mb-3.position-relative
           p La responsabilidad social empresarial se define como: “el compromiso que tienen todas las organizaciones ante los impactos que sus decisiones y actividades generan en sus comunidades y en el medioambiente”.
           p.mb-0.text-bold  (Negocios Verdes Corpamag, 2020). 
           img.pst_3(src='@/assets/componentes/Icon awesome-quote-right.svg', alt='Texto que describa la imagen')
           img.pst_4(src='@/assets/componentes/rect.svg', alt='Texto que describa la imagen')
         p La Responsabilidad Social Empresarial ha pasado por un gran número de regulaciones e iniciativas a nivel nacional e internacional para lograr tener claridad y orientación de cómo implementar esta práctica en las organizaciones; por consiguiente, con el propósito de conocer las principales legislaciones e iniciativas en las siguientes figuras se muestra las diferentes directrices:
-      .col-12.col-lg-4
-        figure
-          img(src='@/assets/curso/tema4/t4-21.svg', alt='Texto que describa la imagen')
+      .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0
+        figure.d-flex.justify-content-center
+          img.w-auto(src='@/assets/curso/tema4/t4-21.svg', alt='Texto que describa la imagen')
 
     .row.mb-5.justify-content-end
       .col-12.col-lg-10
@@ -359,79 +359,81 @@
         h4.bgr_4.p-3.mb-5 Regulaciones e Iniciativas de la RSE
     
     .row.justify-content-center.mb-5
-      .col-12.col-lg-4
+      .col-12.col-lg-6.col-xl-4.mb-3.mb-lg-0
         .tarjeta-avatar
           img.img120(src='@/assets/curso/tema4/t4-22.svg' alt='AvatarTop')
           .tarjeta.bgr_7
             .row.justify-content-center
               .col-8
                 h4.p-4.text-center.bgr_6  Principios y Directrices a Nivel Internacional
-            ul.fa-ul
-              li
-                i.fa-li.fas.fa-check-circle.colr
-                | Diez principios de la iniciativa del Pacto Mundial de las Naciones Unidas.
-              li
-                i.fa-li.fas.fa-check-circle.colr
-                | Líneas directrices de la OCDE para las empresas multinacionales.
-              li
-                i.fa-li.fas.fa-check-circle.colr
-                | Declaración tripartita de los principios sobre las empresas multinacionales y la política social.
-              li
-                i.fa-li.fas.fa-check-circle.colr
-                | Principios Rectores de las Naciones Unidas sobre empresas y derechos humanos.
-              li
-                i.fa-li.fas.fa-check-circle.colr
-                | Agenda 2030 para el Desarrollo Sostenible.
-              li
-                i.fa-li.fas.fa-check-circle.colr
-                | ISO 26000.
-      .col-12.col-lg-4
+              .col-11
+                ul.fa-ul
+                  li
+                    i.fa-li.fas.fa-check-circle.colr
+                    | Diez principios de la iniciativa del Pacto Mundial de las Naciones Unidas.
+                  li
+                    i.fa-li.fas.fa-check-circle.colr
+                    | Líneas directrices de la OCDE para las empresas multinacionales.
+                  li
+                    i.fa-li.fas.fa-check-circle.colr
+                    | Declaración tripartita de los principios sobre las empresas multinacionales y la política social.
+                  li
+                    i.fa-li.fas.fa-check-circle.colr
+                    | Principios Rectores de las Naciones Unidas sobre empresas y derechos humanos.
+                  li
+                    i.fa-li.fas.fa-check-circle.colr
+                    | Agenda 2030 para el Desarrollo Sostenible.
+                  li
+                    i.fa-li.fas.fa-check-circle.colr
+                    | ISO 26000.
+      .col-12.col-lg-6.col-xl-4
         .tarjeta-avatar
           img.img120(src='@/assets/curso/tema4/t4-23.svg' alt='AvatarTop')
           .tarjeta.bgr_8
             .row.justify-content-center
               .col-8
                 h4.p-4.text-center.bgr_6  Principios y Directrices a Nivel Internacional
-            ul.fa-ul
-              li
-                i.fa-li.fas.fa-check-circle.colr_2
-                | Constitución Política de 1991.
-              li
-                i.fa-li.fas.fa-check-circle.colr_2
-                | Ley 99 de 1993.
-              li
-                i.fa-li.fas.fa-check-circle.colr_2
-                | Ley 164 de 1994.
-              li
-                i.fa-li.fas.fa-check-circle.colr_2
-                | Ley 190 de 1995.
-              li
-                i.fa-li.fas.fa-check-circle.colr_2
-                | Ley 970 de 2005.
-              li
-                i.fa-li.fas.fa-check-circle.colr_2
-                | Ley 1474 de 2011.
-              li
-                i.fa-li.fas.fa-check-circle.colr_2
-                | Norma INCONTEC-GTC 180.
+              .col-11
+                ul.fa-ul
+                  li
+                    i.fa-li.fas.fa-check-circle.colr_2
+                    | Constitución Política de 1991.
+                  li
+                    i.fa-li.fas.fa-check-circle.colr_2
+                    | Ley 99 de 1993.
+                  li
+                    i.fa-li.fas.fa-check-circle.colr_2
+                    | Ley 164 de 1994.
+                  li
+                    i.fa-li.fas.fa-check-circle.colr_2
+                    | Ley 190 de 1995.
+                  li
+                    i.fa-li.fas.fa-check-circle.colr_2
+                    | Ley 970 de 2005.
+                  li
+                    i.fa-li.fas.fa-check-circle.colr_2
+                    | Ley 1474 de 2011.
+                  li
+                    i.fa-li.fas.fa-check-circle.colr_2
+                    | Norma INCONTEC-GTC 180.
 
     h4.bgr_4.p-3.mb-5 Ventajas y Beneficios de la RSE
 
     .bg_grad-17
       .row.mb-5
         .col-12.col-lg-4
-          figure
-            img(src='@/assets/curso/tema4/t4-24.png', alt='Texto que describa la imagen')
+          figure.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema4/t4-24.png', alt='Texto que describa la imagen')
         .col-12.col-lg-8.d-flex.align-items-end
           div.p-4
             figure.d-flex.justify-content-end
-              img.mb-3.img100(src='@/assets/curso/tema4/t4-25.svg', alt='Texto que describa la imagen')
+              img.mb-3.img100.d-none.d-lg-flex(src='@/assets/curso/tema4/t4-25.svg', alt='Texto que describa la imagen')
             p.mb-0 Para llevar con éxito la aplicación de la RSE a la cadena de valor, es importante revisar las etapas que esta tiene, para así, integrar las políticas de RSE en cada paso, de manera que cada área de la operación empresarial que intervenga, logre ser amigable con el medio ambiente y socialmente responsable. Al final, se debe realizar una evaluación con el fin de disminuir los costos asociados a las políticas de RSE y así garantizar el resultado final.
     
     p.mb-5 La implementación de la Responsabilidad Social Empresarial logra efectos positivos como:
 
-    .row.mb-5.bgr_11.p-4  
-      .col-12.col-lg-8
+    .row.mb-5.bgr_11.p-3.p-lg-4  
+      .col-12.col-lg-8.mb-3.mb-lg-0
         ul.fa-ul
           li
             i.fa-li.fas.fa-check-circle.colr_2
@@ -449,8 +451,8 @@
             i.fa-li.fas.fa-check-circle.colr_2
             | Al cumplir con los objetivos de la RSE se mejorará la reputación entre los clientes, garantizando un valor agregado a los productos y servicios que ofrezca la empresa. 
       .col-12.col-lg-4
-        figure
-          img(src='@/assets/curso/tema4/t4-26.png', alt='Texto que describa la imagen')
+        figure.d-flex.justify-content-center
+          img.w-auto(src='@/assets/curso/tema4/t4-26.png', alt='Texto que describa la imagen')
 
     p.mb-5 En la siguiente figura presentamos los beneficios que puede tener la organización que implemente los programas de RSE:
 
@@ -460,9 +462,9 @@
         span Beneficios de la RSE
 
       .row
-        .col-12.col-lg-6
+        .col-12.col-lg-6.mb-3.mb-lg-0
           figure
-            img(src='@/assets/curso/tema4/t4-27.svg', alt='Texto que describa la imagen')
+            img.d-none.d-lg-flex(src='@/assets/curso/tema4/t4-27.svg', alt='Texto que describa la imagen')
         .col-12.col-lg-5
           figure
             img(src='@/assets/curso/tema4/t4-28.svg', alt='Texto que describa la imagen')

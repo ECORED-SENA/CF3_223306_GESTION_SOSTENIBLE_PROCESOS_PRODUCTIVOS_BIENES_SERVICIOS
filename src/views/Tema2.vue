@@ -8,13 +8,18 @@
       h1 Modelos Económicos
     
     .row.bg_grad-06.d-flex.align-items-center.justify-content-end
-      .col-12.col-lg-7
-        figure
-          img.img120(src='@/assets/curso/tema2/t2-1.svg', alt='Texto que describa la imagen')
-        p Un modelo económico es una representación elemental de la vinculación entre las diversas variables que explican el desempeño de una economía o un fenómeno en particular.
+      .col-12.col-lg-7.mb-lg-0.d-md-flex.d-lg-none.align-items-center
+        figure.d-flex.justify-content-center
+          img.img120.mb-3(src='@/assets/curso/tema2/t2-1.svg', alt='Texto que describa la imagen')
+        p.mb-0 Un modelo económico es una representación elemental de la vinculación entre las diversas variables que explican el desempeño de una economía o un fenómeno en particular.
+      .col-12.col-lg-7.mb-3.mb-lg-0.d-none.d-lg-flex.align-items-center
+        div
+          figure
+            img.img120.mb-3(src='@/assets/curso/tema2/t2-1.svg', alt='Texto que describa la imagen')
+          p.mb-0 Un modelo económico es una representación elemental de la vinculación entre las diversas variables que explican el desempeño de una economía o un fenómeno en particular.
       .col-12.col-lg-4
         figure
-          img(src='@/assets/curso/tema2/t2-2.png', alt='Texto que describa la imagen')
+          img.d-none.d-lg-flex(src='@/assets/curso/tema2/t2-2.png', alt='Texto que describa la imagen')
 
     separador
 
@@ -32,7 +37,7 @@
     
     p.mb-5 Los principales usos de los modelos económicos son:
 
-    .row.bgr_16.p-4
+    .row.bgr_16.p-4.mb-3
       .col-12.col-lg-9
         ol.lista-ol--cuadro
           li 
@@ -69,7 +74,7 @@
         .tarjeta-avatar
           img.img250.w-100(src='@/assets/curso/tema2/t2-6.svg' alt='AvatarTop')
           .tarjeta.color-secundario
-            .p-4.bgr_3.h-100
+            .p-4.bgr_31.h-100
               h4.text-center Microeconómicos 
               p.mb-0 Hace referencia al estudio de mercado en específico o comportamiento de actores a nivel particular o en un mercado. Por ejemplo, la determinación del precio de un producto de cierto país
     
@@ -103,7 +108,7 @@
           figura
             img(src='@/assets/curso/tema2/t2-8.svg' alt='Texto que describa la imagen') 
       .row.justify-content-center
-        .col-12.col-lg-4    
+        .col-12.col-lg-4.mb-3.mb-lg-0    
           .cajon.bgr_17
             p.mb-0.ms-5 Este círculo representa las necesidades básicas que solo pueden satisfacerse a través de una economía renovada y distribuida.
         .col-12.col-lg-6
@@ -114,14 +119,14 @@
           figcaption.mt-3 Nota. Economía rosquilla de Kate Raworth. Adaptada de Ideas Imprescindibles (2019). La «Economía rosquilla»: ¿Somos adictos al crecimiento económico?
     
     .row.mb-5
-      .col-12.col-lg-8
+      .col-12.col-lg-8.mb-3.mb-lg-0
         p Hoy vivimos en una época de consumo masivo y los países desarrollados buscan constantemente formas de continuar con el crecimiento económico. Asimismo, el sistema financiero actual siempre está dispuesto a maximizar la rentabilidad, presionando a las empresas para que aumenten gradualmente sus ganancias, al mismo tiempo que los bancos continúan prestando y obteniendo altos intereses de mercado sobre sus deudas.
         .bgr_11.p-4
           p.mb-0 Por esta razón, las empresas requieren enormes cantidades de recursos naturales para producir bienes esenciales que millones de consumidores en todo el mundo tienen que adquirir, situación insostenible según Kate Raworth (2018), quien señala que la actividad económica debe primar en un espacio soportado por las normas ambientales y sociales. 
         p.mt-3 En la práctica, esto significa que cada individuo tiene acceso a bienes básicos como alimentación, salud y vivienda con los recursos disponibles en el planeta. Kate Raworth (2018), resalta que es necesario avanzar y fortalecer las acciones distributivas y regenerativas, por lo que se deben planificar actividades para que esos valores se transfieran desde el inicio, a través de la redistribución de la riqueza, que no solo se refiere al dinero, sino también a la tierra, los vehículos y los negocios que pueden generar ganancias.
       .col-12.col-lg-4
-        figura
-          img(src='@/assets/curso/tema2/t2-9.png' alt='Texto que describa la imagen')
+        figurad.d-flex.justify-content-center
+          img.img400(src='@/assets/curso/tema2/t2-9.png' alt='Texto que describa la imagen')
 
     .tarjeta.color-primario.p-3.mb-5
       .row.justify-content-around.align-items-center
@@ -150,7 +155,7 @@
           .bloque-texto-a__texto.p-4
             p.mb-0 Es un modelo socioeconómico sustituto que consiste en los principios de la valoración y de la dignidad, la responsabilidad con el medio ambiente y los derechos humanos. Este modelo reemplaza el desenfrenado interés económico de la actualidad y lo alterna por el bienestar social como indicador del éxito de las organizaciones. Es decir, es un modelo económico enfocado hacia la solidaridad y la sostenibilidad en vez del crecimiento.
     
-    p El video a continuación destaca las características de este modelo de la Economía del Bien Común (EBC):
+    p.mb-5 El video a continuación destaca las características de este modelo de la Economía del Bien Común (EBC):
 
     figure.mb-5
       .video
@@ -163,8 +168,8 @@
     .bg_grad-08
       .row.mb-5
         .col-12.col-lg-4
-          figura
-            img(src='@/assets/curso/tema2/t2-12.svg' alt='Texto que describa la imagen') 
+          figura.d-flex.justify-content-center
+            img.img350(src='@/assets/curso/tema2/t2-12.svg' alt='Texto que describa la imagen') 
         .col-12.col-lg-8.d-flex.align-items-center
           div.mt-5
             p Una de las problemáticas que establece la EBC es la acumulación de dinero, donde el propósito no tiene nada que ver con el bienestar social; la meta es la adquisición de bienes de valor como las propiedades o el dinero. No se toma en consideración el deterioro que se produce en la posesión de estos bienes. 
@@ -172,7 +177,7 @@
     
     p El éxito de las empresas está determinado por el balance económico, mientras que el de los países por su Producto Interno Bruto (PIB). La EBC genera valores determinados por índices monetarios cuyo valor real es un medio necesario para alcanzar el fin de la economía: el bien común. La meta es encontrar la manera para que el dinero sea el mecanismo utilizado para lograr el bienestar social. 
 
-    p Algunas soluciones propuestas por la Economía del Bien Común para lograr un modelo económico más sostenible y que apunte al bienestar social son:
+    p.mb-5 Algunas soluciones propuestas por la Economía del Bien Común para lograr un modelo económico más sostenible y que apunte al bienestar social son:
 
     h3.bgr_4.p-3.mb-5 Soluciones propuestas por la EBC
 
@@ -201,11 +206,11 @@
     .row.justify-content-center
       .col-12.col-lg-10
         .row.bg_grad-09.justify-content-center
-          .col-12.col-lg-2
+          .col-12.col-md-2.d-flex.align-items-center.justify-content-center.mb-3.mb-md-0
             figura
               img(src='@/assets/curso/tema2/t2-14.svg' alt='Texto que describa la imagen')
-          .col-12.col-lg-9.d-flex.align-items-center.p-5
-            p.mb-0.mt-4 Las soluciones rendirán resultados a mediano y largo plazo, aunque primero se debe hacer una concientización social para que este modelo económico sea un éxito; generando una transformación sustancial en el sistema económico de ahora, privilegiando las relaciones sociales y el beneficio común.
+          .col-12.col-md-9.d-flex.align-items-center.p-lg-5
+            p.mb-0.mt-xl-4 Las soluciones rendirán resultados a mediano y largo plazo, aunque primero se debe hacer una concientización social para que este modelo económico sea un éxito; generando una transformación sustancial en el sistema económico de ahora, privilegiando las relaciones sociales y el beneficio común.
 
     
 

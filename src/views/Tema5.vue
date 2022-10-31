@@ -9,11 +9,11 @@
     
     .bg_grad-19
       .row.mb-5.justify-content-center
-        .col-12.col-lg-6.d-flex.align-items-center
+        .col-12.col-lg-6.d-flex.align-items-center.mb-3.mb-lg-0
           p.mb-0 La cadena de valor es un modelo económico que describe todas las actividades necesarias para crear un producto o servicio. Para las organizaciones que fabrican mercancías, esta cadena incluye los pasos que llevan el producto desde la etapa de diseño hasta la etapa de entrega. Su objetivo es aumentar la eficiencia de la producción para ofrecer el mayor valor al menor costo posible. Este concepto fue introducido por Michael E. Porter en 1985 en su libro Ventaja Competitiva: Creación y sostenimiento de su desempeño superior. 
         .col-12.col-lg-4
-          figure
-            img(src='@/assets/curso/tema5/t5-1.png', alt='Texto que describa la imagen')
+          figure.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema5/t5-1.png', alt='Texto que describa la imagen')
     
     p.mb-5 En el siguiente diagrama se observan las actividades que son básicas para la creación de un producto o servicio:
 
@@ -31,7 +31,7 @@
 
     .bg_grad-13
       .row.mb-5
-        .col-12.col-lg-7.p-4.d-flex.align-items-center
+        .col-12.col-lg-7.p-4.mb-3.mb-lg-0.d-flex.align-items-center
           ul.fa-ul
             li.mb-2
               i.fa-li.fas.fa-check-circle.colr
@@ -52,14 +52,14 @@
               i.fa-li.fas.fa-check-circle.colr
               | Fidelizar clientes generando valor.
         .col-12.col-lg-4
-          figura
-            img(src='@/assets/curso/tema5/t5-3.svg' alt='Texto que describa la imagen')
+          figure.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema5/t5-3.svg' alt='Texto que describa la imagen')
     
     p.mb-5 En la cadena de valor se dan dos tipos de actividades: primarias y secundarias: 
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="bgr_20")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_20
       .row(titulo="Actividades primarias")
-        .col-md-8.mb-4.mb-md-0.px-5.py-3
+        .col-12.col-lg-8.mb-4.mb-md-0.px-5.py-3
           p El propósito principal es agregar valor y diseñar una ventaja competitiva. Estas actividades se componen por cinco aspectos:
           ol.lista-ol--cuadro
             li 
@@ -82,11 +82,11 @@
               .lista-ol--cuadro__vineta
                 span 15              
               | Servicio: el último aspecto trata de los programas de mejora de la experiencia del cliente y del producto, a través de la atención al cliente, el mantenimiento, la reparación, la sustitución o el cambio de producto.
-        .col-md-4
-          figure
-            img(src='@/assets/curso/tema5/t5-4.png', alt='Texto que describa la imagen')
+        .col-12.col-lg-4
+          figure.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema5/t5-4.png', alt='Texto que describa la imagen')
       .row(titulo="Actividades secundarias ")
-        .col-md-8.mb-4.mb-md-0.px-5.py-3
+        .col-12.col-lg-8.mb-4.mb-md-0.px-5.py-3
           p Su función principal es de incrementar la eficiencia de las actividades primarias. Están compuestas por:
           ol.lista-ol--cuadro
             li 
@@ -105,9 +105,9 @@
               .lista-ol--cuadro__vineta
                 span 4
               | Infraestructura: son los sistemas y departamentos que lo conforman como contabilidad, finanzas, producción, control de calidad y demás.
-        .col-md-4
-          figure
-            img(src='@/assets/curso/tema5/t5-5.png', alt='Texto que describa la imagen')
+        .col-12.col-lg-4
+          figure.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema5/t5-5.png', alt='Texto que describa la imagen')
     
     .tarjeta.color-primario.p-3
       .row.justify-content-around.align-items-center
@@ -133,7 +133,7 @@
           p.mb-0 El ciclo de vida de un producto surge de la comparación que tienen los seres vivos frente a la evolución en la que se enfrenta a varias etapas a lo largo de la vida. En relación con el producto cumple un ciclo similar y que para las organizaciones permite analizar la introducción y salida de un producto en el mercado. En el siguiente gráfico revisaremos las etapas del ciclo de vida de un producto:
         .col-12.col-lg-2
           figure
-            img(src='@/assets/curso/tema5/t5-6.svg', alt='Texto que describa la imagen')
+            img.d-none.d-lg-flex(src='@/assets/curso/tema5/t5-6.svg', alt='Texto que describa la imagen')
     
     .bg_grad-20
       h3.bgr_4.p-3.mb-5 Ciclo de vida de un producto
@@ -164,21 +164,21 @@
 
     .bg_grad-21
       .row.mb-5
-        .col-12.col-lg-8
-          .row
+        .col-12.col-lg-8.px-5.py-3.mb-3.mb-lg-0
+          .row.d-flex.align-items-center
             .col-12.col-lg-auto
               figure
-                img.mb-3.img100(src='@/assets/curso/tema5/t5-8.svg', alt='Texto que describa la imagen')
+                img.mb-3.img100.d-none.d-lg-flex(src='@/assets/curso/tema5/t5-8.svg', alt='Texto que describa la imagen')
             .col-12.col-lg-10
                 p El objetivo de la cadena de suministro de circuito cerrado o modelo de suministro de circuito cerrado es reducir el volumen de materias primas esenciales en la cadena de producción a través de la recuperación y reutilización de materiales después del consumo. Se deben hacer esfuerzos para garantizar que el desarrollo del producto se diseñe con materiales que se puedan convertir, reciclar y reutilizar para su reintegración en la cadena de producción.
           p.mb-0 Los beneficios de la integración de la cadena de suministro de circuito cerrado no son inmediatos, incluso es posible que la empresa incurra inicialmente en más costos de los que ahorra al adoptar el modelo, debido a las inversiones en logística inversa, la adaptabilidad de la cadena de producción y el desarrollo de productos como los envases más ecológicos, entre otras cosas. Los beneficios de este modelo de abastecimiento son una mayor competitividad, retornos financieros, menos desperdicio y mayor conocimiento de la marca.
         .col-12.col-lg-4
-          figure
-            img(src='@/assets/curso/tema5/t5-9.png', alt='Texto que describa la imagen')
+          figure.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema5/t5-9.png', alt='Texto que describa la imagen')
     
     p.mb-5 Las etapas que conforman las cadenas de suministro de circuito cerrado son las siguientes:
 
-    .bgr_12.p-5.mb-5
+    .bgr_12.p-2.p-lg-5.mb-5
       figure
         img(src='@/assets/curso/tema5/t5-10.svg', alt='Texto que describa la imagen')
     
@@ -192,7 +192,7 @@
       .row
         .col-12.col-lg-6
           figure
-            img(src='@/assets/curso/tema5/t5-11.svg', alt='Texto que describa la imagen')
+            img.d-none.d-lg-flex(src='@/assets/curso/tema5/t5-11.svg', alt='Texto que describa la imagen')
         .col-12.col-lg-6
           figure
             img(src='@/assets/curso/tema5/t5-12.svg', alt='Texto que describa la imagen')
@@ -218,8 +218,8 @@
                 span b
               p #[strong Logística inversa de devoluciones:]  esta logística se encarga de devolver el producto desde el cliente final hasta el punto de origen. Esto puede ser generado por insatisfacción del cliente, entrega incorrecta, productos imperfectos y demás.
         .col-12.col-lg-4
-          figure
-            img(src='@/assets/curso/tema5/t5-13.png', alt='Texto que describa la imagen')
+          figure.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema5/t5-13.png', alt='Texto que describa la imagen')
      
     .bg_grad-14.p-4
       .titulo-sexto.color-acento-contenido
@@ -232,12 +232,12 @@
             img(src='@/assets/curso/tema5/t5-14.svg', alt='Texto que describa la imagen')
         .col-12.col-lg-6
           figure
-            img(src='@/assets/curso/tema5/t5-15.svg', alt='Texto que describa la imagen')
+            img.d-none.d-lg-flex(src='@/assets/curso/tema5/t5-15.svg', alt='Texto que describa la imagen')
         
     .row.mb-5.mt-5
       .col-12.col-lg-4
         figure
-          img(src='@/assets/curso/tema5/t5-16.png', alt='Texto que describa la imagen')
+          img.d-none.d-lg-flex(src='@/assets/curso/tema5/t5-16.png', alt='Texto que describa la imagen')
       .col-12.col-lg-8.d-flex.align-items-center
         div
           p En los e-commerce (comercio electrónico), se deben optimizar los costos logísticos; por esta razón, el proceso de logística inversa debe estar bien organizado y ejecutado de modo sustentable en aspectos económicos porque permite el ahorro de dinero y tiempo.
@@ -260,24 +260,24 @@
     separador
 
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 5.4. Materias primas sostenibles
+      h2 5.4 Materias primas sostenibles
     
     .bg_grad-23
       .row.mb-5
-        .col-12.col-lg-8.d-flex.align-items-center
+        .col-12.col-lg-8.mb-3.mb-lg-0.d-flex.align-items-center
           div.p-4
             p Un material se considera sostenible cuando procede de fuentes renovables, compartidas y cercanas, consume poca energía y no contamina en ningún momento de su ciclo de vida. Aún, si se tiene un porcentaje del material que se recicla, se puede decir que es sostenible, reciclable o biodegradable. 
             p.mb-0 Desde el punto de vista económico, debe ser un material que se ajuste al modelo de desarrollo equilibrado y de asequibilidad. En el plano social, debe ser el resultado de la producción equitativa, el apoyo a los valores culturales de su entorno y la promoción del desarrollo comunitario. Algunas materias primas sostenibles son:
         .col-12.col-lg-4
-          figure
-            img(src='@/assets/curso/tema5/t5-17.png', alt='Texto que describa la imagen')
+          figure.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema5/t5-17.png', alt='Texto que describa la imagen')
     
     h3.bgr_4.p-3.mb-5 Materias Primas Sostenibles
 
     TabsA.color-acento-contenido.mb-5
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Bambú")
         .row.p-4
-          .col-12.col-lg-8
+          .col-12.col-lg-8.mb-3.mg-lg-0
             h4 Bambú
             p.mb-0 El bambú o también conocido como acero vegetal, es un recurso sustitutivo de la madera en todas sus versiones. Es sostenible desde su cultivo, ya que mantiene los niveles hídricos de la tierra, evade la erosión y su crecimiento es tres veces más rápido que un árbol maderable convencional. Generalmente, se emplea como material estructural, para elaborar bioplásticos y fibras textiles.
           .col-12.col-lg-4.d-flex.align-items-center
@@ -285,7 +285,7 @@
               img(src='@/assets/curso/tema5/t5-18.png', alt='Texto que describa la imagen')
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Lana y Seda")
         .row.p-4
-          .col-12.col-lg-8
+          .col-12.col-lg-8.mb-3.mg-lg-0
             h4 Lana y Seda
             p.mb-0 Los fundamentos de la sostenibilidad se pueden incorporar a productos textiles donde el origen y uso de las materias primas utilizadas sean 100% naturales y responsables, como por ejemplo, la lana o la seda que provienen de una producción respetuosa con el medio ambiente y los involucrados en el proceso de cosecha y producción, pueden beneficiarse de buenas condiciones de salud, seguridad y compensación económica. El proceso de fabricación puede tener menos impacto en el medio ambiente, porque se produce en pequeñas cantidades sucesivas. El producto final del ciclo de vida y la larga vida útil, serán materiales reciclables y, finalmente, materiales degradables.
           .col-12.col-lg-4.d-flex.align-items-center
@@ -293,7 +293,7 @@
               img(src='@/assets/curso/tema5/t5-19.png', alt='Texto que describa la imagen')
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Fibras vegetales")
         .row.p-4
-          .col-12.col-lg-8
+          .col-12.col-lg-8.mb-3.mg-lg-0
             h4 Fibras vegetales
             p.mb-0 Aquellas fibras vegetales como el esparto, el mimbre, el abacá, el cáñamo, entre otros, son considerados materiales sostenibles. Si se han aplicado con barniz sintético o pegamentos ajenos ya no son considerados como materiales sostenibles.
           .col-12.col-lg-4.d-flex.align-items-center
@@ -301,7 +301,7 @@
               img(src='@/assets/curso/tema5/t5-20.png', alt='Texto que describa la imagen')
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Corcho")
         .row.p-4
-          .col-12.col-lg-8
+          .col-12.col-lg-8.mb-3.mg-lg-0
             h4 Corcho
             p.mb-0 El alcornocal es un ecosistema cerrado, habitado y protegido por muchas especies diferentes de plantas y animales, que es resistente a la erosión, repone los niveles freáticos, produce oxígeno y reduce las emisiones de dióxido de carbono. El control y procesamiento exitoso del alcornoque proporciona un recurso constantemente renovable. Es un buen amortiguador, soporta el impacto sin deformarse, es aislante acústico y térmico, además, es un material ligero. El corcho proporciona una arquitectura climática de alto rendimiento.
           .col-12.col-lg-4.d-flex.align-items-center
@@ -309,7 +309,7 @@
               img(src='@/assets/curso/tema5/t5-21.png', alt='Texto que describa la imagen')
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Algas")
         .row.p-4
-          .col-12.col-lg-8
+          .col-12.col-lg-8.mb-3.mg-lg-0
             h4 Algas
             p.mb-0 Desde el inicio y el fin del ciclo de vida del cultivo de las algas, es un material sostenible. Cuando el producto ya no se usa, el material se biodegrada sin dejar huella, ni residuo.
           .col-12.col-lg-4.d-flex.align-items-center
@@ -317,7 +317,7 @@
               img(src='@/assets/curso/tema5/t5-22.png', alt='Texto que describa la imagen')
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Residuos de Agricultura")
         .row.p-4
-          .col-12.col-lg-8
+          .col-12.col-lg-8.mb-3.mg-lg-0
             h4 Residuos de Agricultura
             p.mb-0 Residuos como semillas, espigas o cáscaras se pueden utilizar para la elaboración de nuevos materiales sustitutos de plásticos, papeles o madera. Por ejemplo, hay paneles hechos del bagazo de la caña de azúcar y se elaboran estos revestimientos con texturas en 3D. Ahora, las empresas manufactureras recuperan sobrantes, desarrollando con ellos nuevas aplicaciones y materiales que disminuyan la explotación de otras materias primas.
           .col-12.col-lg-4.d-flex.align-items-center
@@ -332,7 +332,7 @@
     p.mb-5 Los envases y embalajes protegen las mercancías, facilitan su transporte y su diseño es fundamental para su comercialización. Se distinguen por:
 
     .row.mb-5
-      .col-12.col-lg-4
+      .col-12.col-lg-4.mb-3.mb-lg-0
         .bgr_25.p-4.h-100
           figure.d-flex.justify-content-center.mb-3
             img.img100(src='@/assets/curso/tema5/t5-24.svg', alt='Texto que describa la imagen')
@@ -340,7 +340,7 @@
             .col-12.col-lg-8.text-center    
               p.text-bold.bgr_6 1. Empaque 
               p Es el que protege, sostiene y conserva la mercancía. Por ejemplo: cartones, botellas, paquetes, sobres, etc.
-      .col-12.col-lg-4
+      .col-12.col-lg-4.mb-3.mb-lg-0
         .bgr_26.p-4.h-100
           figure.d-flex.justify-content-center.mb-3
             img.img100(src='@/assets/curso/tema5/t5-25.svg', alt='Texto que describa la imagen')
@@ -361,9 +361,9 @@
 
     .bg_grad-04
       .row.mb-5.justify-content-center
-        .col-12.col-lg-3
-          figure
-            img(src='@/assets/curso/tema5/t5-27.png', alt='Texto que describa la imagen')
+        .col-12.col-lg-3.mb-3.mb-lg-0
+          figure.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema5/t5-27.png', alt='Texto que describa la imagen')
         .col-12.col-lg-3.d-flex.align-items-center
           ul.fa-ul
             li.mb-2
@@ -400,9 +400,9 @@
 
     .bg_grad-24
       .row.mb-5
-        .col-12.col-lg-4
-          figure
-            img(src='@/assets/curso/tema5/t5-28.png', alt='Texto que describa la imagen')
+        .col-12.col-lg-4.mb-3.mb-lg-0
+          figure.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema5/t5-28.png', alt='Texto que describa la imagen')
         .col-12.col-lg-8.d-flex.align-items-center
           div
             p El <em>packaging</em> sostenible o verde consiste en un embalaje más sostenible. Entre sus lineamientos están, reducir el uso de residuos peligrosos, promover el uso de materiales reciclados y reciclados para el transporte, reducir la cantidad de envases producidos y reducir los costos en este rubro. Se tienen en cuenta los siguientes aspectos:
@@ -423,14 +423,14 @@
     
     .bg_grad-01
       .row.justify-content-end.p-4
-        .col-12.col-lg-5
+        .col-12.col-lg-5.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema5/t5-29.svg', alt='Texto que describa la imagen')
-        .col-12.col-lg-3.d-flex.align-items-center
+        .col-12.col-lg-3.mb-3.mb-lg-0.d-flex.align-items-center
           p.mb-0 En la actualidad las empresas están optando por un modelo circular que busca reducir el impacto sobre el medio ambiente y presenta las 5-R del embalaje que están dadas por un enfoque de reducir, reutilizar, reemplazar, renovar y reciclar. 
         .col-12.col-lg-3.d-flex.align-items-end
-          figure
-            img(src='@/assets/curso/tema5/t5-30.svg', alt='Texto que describa la imagen')
+          figure.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema5/t5-30.svg', alt='Texto que describa la imagen')
        
 
 

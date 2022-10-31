@@ -9,9 +9,9 @@
 
     .bg_grad-10
       .row.mb-5
-        .col-auto
+        .col-auto.mb-3.mb-xl-0
           figura
-            img(src='@/assets/curso/tema3/t3-1.svg' alt='Texto que describa la imagen')
+            img.d-none.d-lg-flex(src='@/assets/curso/tema3/t3-1.svg' alt='Texto que describa la imagen')
         .col-12.col-lg-11.d-flex.align-items-center
           p.mb-0 Es un modelo de consumo y producción que involucra reducir, renovar, reparar, reutilizar y reciclar materiales o productos todas las veces posibles para generar un valor diferenciador. De este modo, el ciclo de vida de los productos se prolonga.
     
@@ -50,10 +50,10 @@
     h3.bgr_4.p-3.mb-5 Principios de la Economía Circular
 
     .bg_grad-11
-      .row.mb-5.p-5
-        .col-12.col-lg-6
-          figura
-            img(src='@/assets/curso/tema3/t3-3.svg' alt='Texto que describa la imagen')
+      .row.mb-5.p-3.p-lg-5
+        .col-12.col-lg-6.mb-3.mb-lg-0
+          figura.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema3/t3-3.svg' alt='Texto que describa la imagen')
         .col-12.col-lg-5
           ol.lista-ol--cuadro.lista-ol--separador
             li 
@@ -102,55 +102,55 @@
         .col-12.col-lg-10.d-flex.align-items-end
           p.text-white Mediante los cuales busca utilizar la mayor cantidad posible de materiales biodegradables en la producción de bienes de consumo (nutrientes biológicos), para que puedan ser devueltos a la naturaleza sin dañar el medio ambiente, ámbito en el que se agota su vida útil.
         .col-12.col-lg-2
-          figura
-            img(src='@/assets/curso/tema3/t3-4.svg' alt='Texto que describa la imagen')
+          figura.d-flex.justify-content-center
+            img.img180(src='@/assets/curso/tema3/t3-4.svg' alt='Texto que describa la imagen')
     
     p.mb-5 La economía circular también contempla varios 
       span.colr.text-bold modelos económicos y escuelas de pensamiento 
       | que buscan mejorar y optimizar los recursos mediante la reutilización, obteniendo beneficios rentables y que los consumidores finales tengan precios más accesibles. A continuación, se presentan los siguientes modelos económicos enfocados y direccionados a la economía circular:
   
-    AcordionA.mb-5(tipo="a" clase-tarjeta="bgr_20")
-      .row(titulo="<em>Cradle to cradle</em> (de la cuna a la cuna)")
-        .col-md-8.mb-4.mb-md-0
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_20
+      .row(titulo="<em>Cradle to cradle</em> (de la cuna a la cuna)").justify-content-center
+        .col-12.col-lg-8.mb-4.mb-lg-0
           p Es un concepto postulado por el arquitecto suizo Walter R. Stahel en los años 70. Hace referencia a la necesidad de usar materiales durables en el tiempo y que no se acabe su uso cuando sean desechados, al contrario, se puedan reutilizar íntegramente para elaborar algo nuevo, cuando su función para lo que habían sido diseñados haya terminado.
           p.mb-0 Por ejemplo, Volta ha diseñado una batería que se puede recargar en un baño de agua sal y vinagre, sin embargo, la batería es totalmente reciclable. Para el desarrollo, la empresa utilizó un generador de biomoléculas Ingeo certificado por C2C; el diseño permite que se cambien las piezas y los componentes de la carcasa, que se pueden quitar y descargar para su recuperación y reutilización.
-        .col-md-4
+        .col-8.col-lg-4
           figure
             img(src='@/assets/curso/tema3/t3-5.png', alt='Texto que describa la imagen')
-      .row(titulo="<em>Biomimicry</em> (biomímesis)")
-        .col-md-8.mb-4.mb-md-0
+      .row(titulo="<em>Biomimicry</em> (biomímesis)").justify-content-center
+        .col-12.col-lg-8.mb-4.mb-lg-0
           p La biomímesis es un campo interdisciplinario en el que se aplican los fundamentos de la ingeniería, la química y la biología para sintetizar materiales, sistemas o máquinas que simulan procesos biológicos. En otras palabras, estudia el camino humano a través de la ciencia y la capacidad de resolver problemas utilizando la naturaleza como fuente de inspiración. Un ejemplo de ello es el sistema de alarma inspirado en los ojos de los insectos.
-        .col-md-4
+        .col-8.col-lg-4
           figure
             img(src='@/assets/curso/tema3/t3-6.png', alt='Texto que describa la imagen')
-      .row(titulo="Capital natural")
-        .col-md-8.mb-4.mb-md-0
+      .row(titulo="Capital natural").justify-content-center
+        .col-12.col-lg-8.mb-4.mb-lg-0
           p Este concepto es definido por Robert Constanza y Herman Daly en los años 90’s, se refiere al stock o inventario de recursos naturales renovables y no renovables que, al ser juntados, aportan beneficios a las personas. Un caso particular del capital natural es la regulación de gases (captura de carbono y generación de oxígeno) proporcionan una mejor calidad a la tierra, aire y agua, además, estos servicios no se transforman, ni se acaban.
-        .col-md-4
+        .col-8.col-lg-4
           figure
             img(src='@/assets/curso/tema3/t3-7.png', alt='Texto que describa la imagen')
-      .row(titulo="Ecología industrial")
-        .col-md-8.mb-4.mb-md-0
+      .row(titulo="Ecología industrial").justify-content-center
+        .col-12.col-lg-8.mb-4.mb-lg-0
           p Es una corriente que promueve el desarrollo sostenible elaborando ciclos de materia prima cerrados con el objetivo de minimizar en lo posible los desechos. Esta teoría expone que el sistema industrial como un ecosistema, debe usar materia prima y energía al mismo tiempo en que la biosfera pueda sustituirlo. Por ejemplo, una refinería de petróleo. 
-        .col-md-4
+        .col-8.col-lg-4
           figure
             img(src='@/assets/curso/tema3/t3-8.png', alt='Texto que describa la imagen')
-      .row(titulo="Producción más limpia")
-        .col-md-8.mb-4.mb-md-0
+      .row(titulo="Producción más limpia").justify-content-center
+        .col-12.col-lg-8.mb-4.mb-lg-0
           p Es la aplicación continua de una estrategia de prevención ambiental integrada en las operaciones, bienes y servicios, con el fin de reducir los riesgos para las personas y el medio ambiente, aumentar la competitividad de la empresa y garantizar la seguridad de la economía. Los equipos de bajo consumo energético son un ejemplo de producción más limpia.
-        .col-md-4
+        .col-8.col-lg-4
           figure
             img(src='@/assets/curso/tema3/t3-9.png', alt='Texto que describa la imagen')
-      .row(titulo="Economía azul")
-        .col-md-8.mb-4.mb-md-0
+      .row(titulo="Economía azul").justify-content-center
+        .col-12.col-lg-8.mb-4.mb-lg-0
           p La economía azul se refiere al uso sostenible, la gestión y la conservación de los recursos marinos a través de actividades que promuevan el desarrollo económico y la mejora de los estilos de vida, así como la preservación de la riqueza de la biodiversidad en las áreas afectadas. Los ejemplos de una economía verde incluyen el monitoreo de animales marinos; Actividad responsable y sostenible relacionada con el ecoturismo, realizada en alta mar sin interrupción de la migración, pesca o daños de ningún tipo.
-        .col-md-4
+        .col-8.col-lg-4
           figure
             img(src='@/assets/curso/tema3/t3-10.png', alt='Texto que describa la imagen')
-      .row(titulo="Diseño regenerativo")
-        .col-md-8.mb-4.mb-md-0
+      .row(titulo="Diseño regenerativo").justify-content-center
+        .col-12.col-lg-8.mb-4.mb-lg-0
           p El diseño regenerativo describe procesos que renuevan, restauran y revitalizan sus propias fuentes de energía y materiales con los que se elaboran sistemas que relacionan las necesidades de la sociedad con las de la naturaleza. Por ejemplo, la permacultura se basa en el diseño de una casa, si una casa está mal diseñada puede causar muchos problemas en un futuro con la calidad de los materiales de construcción o uso de energía de forma excesiva. Ahora con un diseño regenerativo, se pueden utilizar materiales de origen biológico, por ejemplo, cemento de cáñamo o instalar paneles solares para generar luz eléctrica.
-        .col-md-4
+        .col-8.col-lg-4
           figure
             img(src='@/assets/curso/tema3/t3-11.png', alt='Texto que describa la imagen')
       div(titulo="<em>Performance economy</em> (Economía de rendimiento)")
@@ -226,53 +226,54 @@
 
     .bg_grad-13
       .row.mb-5.p-4
-        .col-12.col-lg-7
-          .row.mb-5
-            .col-12.col-lg-6
-              .row  
-                .col-12.col-lg-4.bgr_23
-                  figure.p-2
-                    img(src='@/assets/curso/tema3/t3-13.svg', alt='Texto que describa la imagen')
-                .col-12.col-lg-7.bgr_24.d-flex.align-items-center
+        .col-12.col-lg-7.mb-3
+          .row.mb-3
+            .col-12.col-md-6.col-lg-6.mb-3
+              .row.justify-content-center
+                .col-4.col-lg-4.bgr_23
+                  figure.p-2.d-flex.justify-content-center
+                    img.img70(src='@/assets/curso/tema3/t3-13.svg', alt='Texto que describa la imagen')
+                .col-7.col-lg-7.bgr_24.d-flex.align-items-center
                   p.text-bold.mb-0 Eliminación del IVA.
-            .col-12.col-lg-6
-              .row  
-                .col-12.col-lg-4.bgr_23
-                  figure.p-2
-                    img(src='@/assets/curso/tema3/t3-14.svg', alt='Texto que describa la imagen')
-                .col-12.col-lg-7.bgr_24.d-flex.align-items-center
+            .col-12.col-md-6.col-lg-6
+              .row.justify-content-center  
+                .col-4.col-lg-4.bgr_23
+                  figure.p-2.d-flex.justify-content-center
+                    img.img70(src='@/assets/curso/tema3/t3-14.svg', alt='Texto que describa la imagen')
+                .col-7.col-lg-7.bgr_24.d-flex.align-items-center
                   p.text-bold.mb-0 Descuento de renta.
-          .row.mb-5
-            .col-12.col-lg-6
-              .row  
-                .col-12.col-lg-4.bgr_23
-                  figure.p-2
-                    img(src='@/assets/curso/tema3/t3-15.svg', alt='Texto que describa la imagen')
-                .col-12.col-lg-7.bgr_24.d-flex.align-items-center
+          .row.mb-3
+            .col-12.col-md-6.col-lg-6.mb-3
+              .row.justify-content-center  
+                .col-4.col-lg-4.bgr_23
+                  figure.p-2.d-flex.justify-content-center
+                    img.img70(src='@/assets/curso/tema3/t3-15.svg', alt='Texto que describa la imagen')
+                .col-7.col-lg-7.bgr_24.d-flex.align-items-center
                   p.text-bold.mb-0 Desgravación de renta.
-            .col-12.col-lg-6
-              .row  
-                .col-12.col-lg-4.bgr_23
-                  figure.p-2
-                    img(src='@/assets/curso/tema3/t3-16.svg', alt='Texto que describa la imagen')
-                .col-12.col-lg-7.bgr_24.d-flex.align-items-center
+            .col-12.col-md-6.col-lg-6
+              .row.justify-content-center  
+                .col-4.col-lg-4.bgr_23
+                  figure.p-2.d-flex.justify-content-center
+                    img.img70(src='@/assets/curso/tema3/t3-16.svg', alt='Texto que describa la imagen')
+                .col-7.col-lg-7.bgr_24.d-flex.align-items-center
                   p.text-bold.mb-0 Devaluación acelerada.
           .row
-            .col-12.col-lg-6
-              .row  
-                .col-12.col-lg-4.bgr_23
-                  figure.p-2
-                    img(src='@/assets/curso/tema3/t3-17.svg', alt='Texto que describa la imagen')
-                .col-12.col-lg-7.bgr_24.d-flex.align-items-center
+            .col-12.col-md-6.col-lg-6
+              .row.justify-content-center  
+                .col-4.col-lg-4.bgr_23
+                  figure.p-2.d-flex.justify-content-center
+                    img.img70(src='@/assets/curso/tema3/t3-17.svg', alt='Texto que describa la imagen')
+                .col-7.col-lg-7.bgr_24.d-flex.align-items-center
                   p.text-bold.mb-0 Cero en arancel.
+
         .col-12.col-lg-4
-          figure
-            img(src='@/assets/curso/tema3/t3-18.svg', alt='Texto que describa la imagen')
+          figure.d-flex.justify-content-center
+            img.img350(src='@/assets/curso/tema3/t3-18.svg', alt='Texto que describa la imagen')
       
     .row
-      .col-12.col-lg-5
-        figure
-          img(src='@/assets/curso/tema3/t3-19.png', alt='Texto que describa la imagen')
+      .col-12.col-lg-5.mb-3.mb-lg-0.d-lg-flex.align-items-center
+        figure.d-flex.justify-content-center
+          img.img500(src='@/assets/curso/tema3/t3-19.png', alt='Texto que describa la imagen')
       .col-12.col-lg-7
         .bgr_2.p-4.mb-3
           p.mb-0 Durante el año 2019, la Autoridad Nacional de Licencias Ambientales (ANLA) obtuvo más de 600 solicitudes, por consiguiente, destino 462 incentivos, el 68% fue incorporado a inversiones de control, monitoreo y programas ambientales, en fuentes no convencionales de energía fue el 23%, mientras que, el 9% a eficiencia energética.

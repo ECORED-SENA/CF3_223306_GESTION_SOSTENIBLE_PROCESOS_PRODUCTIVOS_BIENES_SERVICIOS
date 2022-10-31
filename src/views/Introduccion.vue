@@ -10,11 +10,11 @@
       h1 Introducción
     
     .bg_grad-01
-      .row.mb-5
-        .col-12.col-lg-4
-          figura
-            img(src='@/assets/curso/intro/img1.svg' alt='Texto que describa la imagen') 
-        .col-12.col-lg-8.d-flex.align-items-end
+      .row.mb-5.justify-content-center
+        .col-8.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
+          figura.d-flex.justify-content-center
+            img.img350(src='@/assets/curso/intro/img1.svg' alt='Texto que describa la imagen') 
+        .col-12.col-lg-8.d-flex.align-items-end(data-aos="fade-left")
           div
             p A través de la historia, el ser humano ha dependido de la naturaleza para su supervivencia y gracias a su razonamiento e inteligencia se ha adaptado al entorno aprendiendo a sembrar, cosechar y mantener sus cultivos a largo plazo con desarrollo científico y tecnológico. Sin embargo, el hombre no ha cuidado del todo a la naturaleza y sus ecosistemas y se ha encargado de destruirla debido al impacto producido por el mal manejo de los recursos.
             p.mb-0 Es por esto, que el desarrollo de estos contenidos estará enfocado en la importancia de los ecosistemas, cómo es la relación del hombre con la naturaleza, cuál es el metabolismo de la economía colombiana, cuáles son los modelos económicos, qué es la economía circular, normatividad, incentivos y casos de éxito. 
@@ -23,7 +23,7 @@
 
     p.mb-5 Como punto inicial, lo invitamos a ver el siguiente video de bienvenida y desarrollo de este componente formativo:
 
-    figure
+    figure(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/N2wSqwPfMHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
