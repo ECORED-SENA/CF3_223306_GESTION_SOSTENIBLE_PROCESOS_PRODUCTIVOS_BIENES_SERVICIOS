@@ -9,9 +9,9 @@
     
     .bg_grad-19
       .row.mb-5.justify-content-center
-        .col-12.col-lg-6.d-flex.align-items-center.mb-3.mb-lg-0
+        .col-12.col-lg-6.d-flex.align-items-center.mb-3.mb-lg-0(data-aos="fade-right")
           p.mb-0 La cadena de valor es un modelo económico que describe todas las actividades necesarias para crear un producto o servicio. Para las organizaciones que fabrican mercancías, esta cadena incluye los pasos que llevan el producto desde la etapa de diseño hasta la etapa de entrega. Su objetivo es aumentar la eficiencia de la producción para ofrecer el mayor valor al menor costo posible. Este concepto fue introducido por Michael E. Porter en 1985 en su libro Ventaja Competitiva: Creación y sostenimiento de su desempeño superior. 
-        .col-12.col-lg-4
+        .col-12.col-lg-4(data-aos="fade-right")
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema5/t5-1.png', alt='Texto que describa la imagen')
     
@@ -19,7 +19,7 @@
 
     .bg_grad-07
       .row.justify-content-center.mb-5
-        .col-12.col-lg-8
+        .col-12.col-lg-8(data-aos="zoom-in")
           .titulo-sexto.color-acento-contenido
             h5 Figura 9
             span Cadena de valor
@@ -31,7 +31,7 @@
 
     .bg_grad-13
       .row.mb-5
-        .col-12.col-lg-7.p-4.mb-3.mb-lg-0.d-flex.align-items-center
+        .col-12.col-lg-7.p-4.mb-3.mb-lg-0.d-flex.align-items-center(data-aos="fade-right")
           ul.fa-ul
             li.mb-2
               i.fa-li.fas.fa-check-circle.colr
@@ -51,13 +51,13 @@
             li
               i.fa-li.fas.fa-check-circle.colr
               | Fidelizar clientes generando valor.
-        .col-12.col-lg-4
+        .col-12.col-lg-4(data-aos="fade-left")
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema5/t5-3.svg' alt='Texto que describa la imagen')
     
     p.mb-5 En la cadena de valor se dan dos tipos de actividades: primarias y secundarias: 
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_20
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_20(data-aos="zoom-out")
       .row(titulo="Actividades primarias")
         .col-12.col-lg-8.mb-4.mb-md-0.px-5.py-3
           p El propósito principal es agregar valor y diseñar una ventaja competitiva. Estas actividades se componen por cinco aspectos:
@@ -139,7 +139,7 @@
       h3.bgr_4.p-3.mb-5 Ciclo de vida de un producto
 
       .row.mb-5.justify-content-center
-        .col-12.col-lg-8
+        .col-12.col-lg-8(data-aos="zoom-in")
           ImagenInfografica.color-acento-botones.mb-5
             template(v-slot:imagen)
               figure
@@ -164,7 +164,7 @@
 
     .bg_grad-21
       .row.mb-5
-        .col-12.col-lg-8.px-5.py-3.mb-3.mb-lg-0
+        .col-12.col-lg-8.px-5.py-3.mb-3.mb-lg-0(data-aos="fade-right")
           .row.d-flex.align-items-center
             .col-12.col-lg-auto
               figure
@@ -172,13 +172,13 @@
             .col-12.col-lg-10
                 p El objetivo de la cadena de suministro de circuito cerrado o modelo de suministro de circuito cerrado es reducir el volumen de materias primas esenciales en la cadena de producción a través de la recuperación y reutilización de materiales después del consumo. Se deben hacer esfuerzos para garantizar que el desarrollo del producto se diseñe con materiales que se puedan convertir, reciclar y reutilizar para su reintegración en la cadena de producción.
           p.mb-0 Los beneficios de la integración de la cadena de suministro de circuito cerrado no son inmediatos, incluso es posible que la empresa incurra inicialmente en más costos de los que ahorra al adoptar el modelo, debido a las inversiones en logística inversa, la adaptabilidad de la cadena de producción y el desarrollo de productos como los envases más ecológicos, entre otras cosas. Los beneficios de este modelo de abastecimiento son una mayor competitividad, retornos financieros, menos desperdicio y mayor conocimiento de la marca.
-        .col-12.col-lg-4
+        .col-12.col-lg-4(data-aos="fade-left")
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema5/t5-9.png', alt='Texto que describa la imagen')
     
     p.mb-5 Las etapas que conforman las cadenas de suministro de circuito cerrado son las siguientes:
 
-    .bgr_12.p-2.p-lg-5.mb-5
+    .bgr_12.p-2.p-lg-5.mb-5(data-aos="flip-down")
       figure
         img(src='@/assets/curso/tema5/t5-10.svg', alt='Texto que describa la imagen')
     
@@ -190,10 +190,10 @@
         span Ejemplo de Cadena de suministros de círculo cerrado
 
       .row
-        .col-12.col-lg-6
+        .col-12.col-lg-6(data-aos="fade-left")
           figure
             img.d-none.d-lg-flex(src='@/assets/curso/tema5/t5-11.svg', alt='Texto que describa la imagen')
-        .col-12.col-lg-6
+        .col-12.col-lg-6(data-aos="fade-right")
           figure
             img(src='@/assets/curso/tema5/t5-12.svg', alt='Texto que describa la imagen')
         figcaption.mt-3 Nota. Adaptado de Solupartes (2018). Closed loop supply chain: concepto y relevancia en el mercado. 
@@ -207,7 +207,7 @@
 
     .bg_grad-22
       .row.mb-5
-        .col-12.col-lg-8.d-flex.align-items-center
+        .col-12.col-lg-8.d-flex.align-items-center(data-aos="fade-right")
           ol.lista-ol--cuadro
             li 
               .lista-ol--cuadro__vineta
@@ -217,7 +217,7 @@
               .lista-ol--cuadro__vineta
                 span b
               p #[strong Logística inversa de devoluciones:]  esta logística se encarga de devolver el producto desde el cliente final hasta el punto de origen. Esto puede ser generado por insatisfacción del cliente, entrega incorrecta, productos imperfectos y demás.
-        .col-12.col-lg-4
+        .col-12.col-lg-4(data-aos="fade-left")
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema5/t5-13.png', alt='Texto que describa la imagen')
      
@@ -227,18 +227,18 @@
         span Ejemplo de Logística inversa
 
       .row
-        .col-12.col-lg-6
+        .col-12.col-lg-6(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema5/t5-14.svg', alt='Texto que describa la imagen')
-        .col-12.col-lg-6
+        .col-12.col-lg-6(data-aos="fade-right")
           figure
             img.d-none.d-lg-flex(src='@/assets/curso/tema5/t5-15.svg', alt='Texto que describa la imagen')
         
     .row.mb-5.mt-5
-      .col-12.col-lg-4
+      .col-12.col-lg-4(data-aos="fade-right")
         figure
           img.d-none.d-lg-flex(src='@/assets/curso/tema5/t5-16.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-8.d-flex.align-items-center
+      .col-12.col-lg-8.d-flex.align-items-center(data-aos="fade-left")
         div
           p En los e-commerce (comercio electrónico), se deben optimizar los costos logísticos; por esta razón, el proceso de logística inversa debe estar bien organizado y ejecutado de modo sustentable en aspectos económicos porque permite el ahorro de dinero y tiempo.
           .bgr_5.p-4
@@ -264,17 +264,17 @@
     
     .bg_grad-23
       .row.mb-5
-        .col-12.col-lg-8.mb-3.mb-lg-0.d-flex.align-items-center
+        .col-12.col-lg-8.mb-3.mb-lg-0.d-flex.align-items-center(data-aos="fade-right")
           div.p-4
             p Un material se considera sostenible cuando procede de fuentes renovables, compartidas y cercanas, consume poca energía y no contamina en ningún momento de su ciclo de vida. Aún, si se tiene un porcentaje del material que se recicla, se puede decir que es sostenible, reciclable o biodegradable. 
             p.mb-0 Desde el punto de vista económico, debe ser un material que se ajuste al modelo de desarrollo equilibrado y de asequibilidad. En el plano social, debe ser el resultado de la producción equitativa, el apoyo a los valores culturales de su entorno y la promoción del desarrollo comunitario. Algunas materias primas sostenibles son:
-        .col-12.col-lg-4
+        .col-12.col-lg-4(data-aos="fade-left")
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema5/t5-17.png', alt='Texto que describa la imagen')
     
     h3.bgr_4.p-3.mb-5 Materias Primas Sostenibles
 
-    TabsA.color-acento-contenido.mb-5
+    TabsA.color-acento-contenido.mb-5(data-aos="zoom-in")
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Bambú")
         .row.p-4
           .col-12.col-lg-8.mb-3.mg-lg-0
@@ -332,7 +332,7 @@
     p.mb-5 Los envases y embalajes protegen las mercancías, facilitan su transporte y su diseño es fundamental para su comercialización. Se distinguen por:
 
     .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-down")
         .bgr_25.p-4.h-100
           figure.d-flex.justify-content-center.mb-3
             img.img100(src='@/assets/curso/tema5/t5-24.svg', alt='Texto que describa la imagen')
@@ -340,7 +340,7 @@
             .col-12.col-lg-8.text-center    
               p.text-bold.bgr_6 1. Empaque 
               p Es el que protege, sostiene y conserva la mercancía. Por ejemplo: cartones, botellas, paquetes, sobres, etc.
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-up")
         .bgr_26.p-4.h-100
           figure.d-flex.justify-content-center.mb-3
             img.img100(src='@/assets/curso/tema5/t5-25.svg', alt='Texto que describa la imagen')
@@ -348,7 +348,7 @@
             .col-12.col-lg-8.text-center    
               p.text-bold.bgr_6 2. Embalaje secundario
               p Son los cartones de carga para almacenamiento o transporte que están fabricados con diferentes materiales de soporte.
-      .col-12.col-lg-4
+      .col-12.col-lg-4(data-aos="flip-down")
         .bgr_25.p-4.h-100
           figure.d-flex.justify-content-center.mb-3
             img.img100(src='@/assets/curso/tema5/t5-26.svg', alt='Texto que describa la imagen')
@@ -361,10 +361,10 @@
 
     .bg_grad-04
       .row.mb-5.justify-content-center
-        .col-12.col-lg-3.mb-3.mb-lg-0
+        .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="flip-down")
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema5/t5-27.png', alt='Texto que describa la imagen')
-        .col-12.col-lg-3.d-flex.align-items-center
+        .col-12.col-lg-3.d-flex.align-items-center(data-aos="fade-right")
           ul.fa-ul
             li.mb-2
               i.fa-li.fas.fa-check-circle.colr
@@ -378,7 +378,7 @@
             li.mb-2
               i.fa-li.fas.fa-check-circle.colr
               | Caja con tapa.
-        .col-12.col-lg-3.d-flex.align-items-center
+        .col-12.col-lg-3.d-flex.align-items-center(data-aos="fade-left")
           ul.fa-ul
             li.mb-2
               i.fa-li.fas.fa-check-circle.colr
@@ -400,10 +400,10 @@
 
     .bg_grad-24
       .row.mb-5
-        .col-12.col-lg-4.mb-3.mb-lg-0
+        .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema5/t5-28.png', alt='Texto que describa la imagen')
-        .col-12.col-lg-8.d-flex.align-items-center
+        .col-12.col-lg-8.d-flex.align-items-center(data-aos="fade-left")
           div
             p El <em>packaging</em> sostenible o verde consiste en un embalaje más sostenible. Entre sus lineamientos están, reducir el uso de residuos peligrosos, promover el uso de materiales reciclados y reciclados para el transporte, reducir la cantidad de envases producidos y reducir los costos en este rubro. Se tienen en cuenta los siguientes aspectos:
             ul.fa-ul
@@ -423,12 +423,12 @@
     
     .bg_grad-01
       .row.justify-content-end.p-4
-        .col-12.col-lg-5.mb-3.mb-lg-0
+        .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="flip-down")
           figure
             img(src='@/assets/curso/tema5/t5-29.svg', alt='Texto que describa la imagen')
-        .col-12.col-lg-3.mb-3.mb-lg-0.d-flex.align-items-center
+        .col-12.col-lg-3.mb-3.mb-lg-0.d-flex.align-items-center(data-aos="flip-up")
           p.mb-0 En la actualidad las empresas están optando por un modelo circular que busca reducir el impacto sobre el medio ambiente y presenta las 5-R del embalaje que están dadas por un enfoque de reducir, reutilizar, reemplazar, renovar y reciclar. 
-        .col-12.col-lg-3.d-flex.align-items-end
+        .col-12.col-lg-3.d-flex.align-items-end(data-aos="flip-down")
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema5/t5-30.svg', alt='Texto que describa la imagen')
        

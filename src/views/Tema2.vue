@@ -12,12 +12,12 @@
         figure.d-flex.justify-content-center
           img.img120.mb-3(src='@/assets/curso/tema2/t2-1.svg', alt='Texto que describa la imagen')
         p.mb-0 Un modelo económico es una representación elemental de la vinculación entre las diversas variables que explican el desempeño de una economía o un fenómeno en particular.
-      .col-12.col-lg-7.mb-3.mb-lg-0.d-none.d-lg-flex.align-items-center
+      .col-12.col-lg-7.mb-3.mb-lg-0.d-none.d-lg-flex.align-items-center(data-aos="fade-right")
         div
           figure
             img.img120.mb-3(src='@/assets/curso/tema2/t2-1.svg', alt='Texto que describa la imagen')
           p.mb-0 Un modelo económico es una representación elemental de la vinculación entre las diversas variables que explican el desempeño de una economía o un fenómeno en particular.
-      .col-12.col-lg-4
+      .col-12.col-lg-4(data-aos="fade-left")
         figure
           img.d-none.d-lg-flex(src='@/assets/curso/tema2/t2-2.png', alt='Texto que describa la imagen')
 
@@ -28,17 +28,17 @@
     
     .bg_grad-03
       .row.mb-5
-        .col-12.col-lg-4
+        .col-12.col-lg-4(data-aos="fade-left")
           figura.d-flex.justify-content-center
             img.img250(src='@/assets/curso/tema2/t2-3.svg' alt='Texto que describa la imagen') 
-        .col-12.col-lg-8.d-flex.align-items-center
+        .col-12.col-lg-8.d-flex.align-items-center(data-aos="fade-right")
           div.mt-5
             p Los modelos económicos facilitan evaluar fenómenos complejos y realizan predicciones en cuanto al comportamiento futuro de las variables. Puesto que la realidad es muy compleja, el modelo trata de capturar solo las variables más relevantes del fenómeno en estudio y así, permite una mejor comprensión y simpleza. 
     
     p.mb-5 Los principales usos de los modelos económicos son:
 
     .row.bgr_16.p-4.mb-3
-      .col-12.col-lg-9
+      .col-12.col-lg-9(data-aos="fade-right")
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta
@@ -56,21 +56,21 @@
             .lista-ol--cuadro__vineta
               span d
             | Diseñar políticas económicas.
-      .col-12.col-lg-3
+      .col-12.col-lg-3(data-aos="fade-left")
         figura.d-flex.justify-content-center
             img.img120(src='@/assets/curso/tema2/t2-4.svg' alt='Texto que describa la imagen') 
     
     p.mb-5 Además, los modelos económicos se dividen en dos categorías:
 
     .row.justify-content-center.mb-5
-      .col-12.col-lg-5.pst_2
+      .col-12.col-lg-5.pst_2(data-aos="flip-right")
         .tarjeta-avatar
           img.img250.w-100(src='@/assets/curso/tema2/t2-5.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .p-4.bgr_3.h-100
               h4.text-center Macroeconómicos 
               p.mb-0 Identifican fenómenos a nivel macro o general de la economía como la inflación, el nivel de producción, etc.
-      .col-12.col-lg-5.pst_2
+      .col-12.col-lg-5.pst_2(data-aos="flip-left")
         .tarjeta-avatar
           img.img250.w-100(src='@/assets/curso/tema2/t2-6.svg' alt='AvatarTop')
           .tarjeta.color-secundario
@@ -81,7 +81,7 @@
     p.mb-5 No obstante, otra manera de entender el concepto de modelo económico es cuando se hace referencia a los sistemas económicos o el modo en el que se organiza la economía de un país. Generalmente, existen tres sistemas económicos como se observa a continuación:
 
     .bg_grad-07
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="zoom-in")
         .col-12.col-lg-8
           .titulo-sexto.color-acento-contenido
             h5 Figura 6
@@ -103,7 +103,7 @@
           .titulo-sexto.color-acento-contenido
             h5 Figura 7
             span Teoría de la economía de rosquilla
-      .row.justify-content-center.mb-3
+      .row.justify-content-center.mb-3(data-aos="zoom-out")
         .col-12.col-lg-8
           figura
             img(src='@/assets/curso/tema2/t2-8.svg' alt='Texto que describa la imagen') 
@@ -119,12 +119,12 @@
           figcaption.mt-3 Nota. Economía rosquilla de Kate Raworth. Adaptada de Ideas Imprescindibles (2019). La «Economía rosquilla»: ¿Somos adictos al crecimiento económico?
     
     .row.mb-5
-      .col-12.col-lg-8.mb-3.mb-lg-0
+      .col-12.col-lg-8.mb-3.mb-lg-0(data-aos="fade-right")
         p Hoy vivimos en una época de consumo masivo y los países desarrollados buscan constantemente formas de continuar con el crecimiento económico. Asimismo, el sistema financiero actual siempre está dispuesto a maximizar la rentabilidad, presionando a las empresas para que aumenten gradualmente sus ganancias, al mismo tiempo que los bancos continúan prestando y obteniendo altos intereses de mercado sobre sus deudas.
         .bgr_11.p-4
           p.mb-0 Por esta razón, las empresas requieren enormes cantidades de recursos naturales para producir bienes esenciales que millones de consumidores en todo el mundo tienen que adquirir, situación insostenible según Kate Raworth (2018), quien señala que la actividad económica debe primar en un espacio soportado por las normas ambientales y sociales. 
         p.mt-3 En la práctica, esto significa que cada individuo tiene acceso a bienes básicos como alimentación, salud y vivienda con los recursos disponibles en el planeta. Kate Raworth (2018), resalta que es necesario avanzar y fortalecer las acciones distributivas y regenerativas, por lo que se deben planificar actividades para que esos valores se transfieran desde el inicio, a través de la redistribución de la riqueza, que no solo se refiere al dinero, sino también a la tierra, los vehículos y los negocios que pueden generar ganancias.
-      .col-12.col-lg-4
+      .col-12.col-lg-4(data-aos="fade-left")
         figurad.d-flex.justify-content-center
           img.img400(src='@/assets/curso/tema2/t2-9.png' alt='Texto que describa la imagen')
 
@@ -146,7 +146,7 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.3 Economía del Bien Común
     
-    .bloque-texto-a.bgr_19.p-4.p-md-5.mb-5 
+    .bloque-texto-a.bgr_19.p-4.p-md-5.mb-5(data-aos="flip-left") 
       .row.m-0.align-items-center.justify-content-between 
         .col-lg-4.mb-4.mb-lg-0
           figura.d-flex.justify-content-center
@@ -157,7 +157,7 @@
     
     p.mb-5 El video a continuación destaca las características de este modelo de la Economía del Bien Común (EBC):
 
-    figure.mb-5
+    figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Z8XcVBhYPHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
@@ -167,10 +167,10 @@
 
     .bg_grad-08
       .row.mb-5
-        .col-12.col-lg-4
+        .col-12.col-lg-4(data-aos="fade-right")
           figura.d-flex.justify-content-center
             img.img350(src='@/assets/curso/tema2/t2-12.svg' alt='Texto que describa la imagen') 
-        .col-12.col-lg-8.d-flex.align-items-center
+        .col-12.col-lg-8.d-flex.align-items-center(data-aos="fade-left")
           div.mt-5
             p Una de las problemáticas que establece la EBC es la acumulación de dinero, donde el propósito no tiene nada que ver con el bienestar social; la meta es la adquisición de bienes de valor como las propiedades o el dinero. No se toma en consideración el deterioro que se produce en la posesión de estos bienes. 
             p.mb-0 Esto crea un daño continuo y avanzado del medio ambiente y se intensifica el calentamiento global o la generación progresiva y extralimitada de especulación, resultando una gran inestabilidad financiera. Otra de las problemáticas es la desigualdad económica en el mundo.
@@ -182,10 +182,10 @@
     h3.bgr_4.p-3.mb-5 Soluciones propuestas por la EBC
 
     .row.mb-5
-      .col-12.col-lg-4
+      .col-12.col-lg-4(data-aos="fade-left")
         figura
           img(src='@/assets/curso/tema2/t2-13.svg' alt='Texto que describa la imagen')
-      .col-12.col-lg-8
+      .col-12.col-lg-8(data-aos="fade-right")
         .tarjeta.bgr_5.p-4 
           p La Economía del Bien Común no procura criticar los errores del modelo económico definido actual, sino que facilita impactar de manera positiva y aporta soluciones. 
           p Algunas de las propuestas de solución basadas en el modelo EBC son:
@@ -203,7 +203,7 @@
               i.fa-li.fas.fa-check-circle.colr
               | Reducir la huella ecológica.
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="flip-down")
       .col-12.col-lg-10
         .row.bg_grad-09.justify-content-center
           .col-12.col-md-2.d-flex.align-items-center.justify-content-center.mb-3.mb-md-0

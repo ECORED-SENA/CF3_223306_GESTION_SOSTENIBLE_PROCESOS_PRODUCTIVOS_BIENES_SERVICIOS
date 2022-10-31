@@ -16,7 +16,7 @@
           p.mb-0 Es un modelo de consumo y producción que involucra reducir, renovar, reparar, reutilizar y reciclar materiales o productos todas las veces posibles para generar un valor diferenciador. De este modo, el ciclo de vida de los productos se prolonga.
     
     .bg_grad-07
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="zoom-in")
         .col-12.col-lg-8
           .titulo-sexto.color-acento-contenido
             h5 Figura 8
@@ -51,10 +51,10 @@
 
     .bg_grad-11
       .row.mb-5.p-3.p-lg-5
-        .col-12.col-lg-6.mb-3.mb-lg-0
+        .col-12.col-lg-6.mb-3.mb-lg-0(data-aos="fade-right")
           figura.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema3/t3-3.svg' alt='Texto que describa la imagen')
-        .col-12.col-lg-5
+        .col-12.col-lg-5(data-aos="fade-left")
           ol.lista-ol--cuadro.lista-ol--separador
             li 
               .lista-ol--cuadro__vineta
@@ -109,7 +109,7 @@
       span.colr.text-bold modelos económicos y escuelas de pensamiento 
       | que buscan mejorar y optimizar los recursos mediante la reutilización, obteniendo beneficios rentables y que los consumidores finales tengan precios más accesibles. A continuación, se presentan los siguientes modelos económicos enfocados y direccionados a la economía circular:
   
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_20
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_20(data-aos="zoom-in")
       .row(titulo="<em>Cradle to cradle</em> (de la cuna a la cuna)").justify-content-center
         .col-12.col-lg-8.mb-4.mb-lg-0
           p Es un concepto postulado por el arquitecto suizo Walter R. Stahel en los años 70. Hace referencia a la necesidad de usar materiales durables en el tiempo y que no se acabe su uso cuando sean desechados, al contrario, se puedan reutilizar íntegramente para elaborar algo nuevo, cuando su función para lo que habían sido diseñados haya terminado.
@@ -171,7 +171,7 @@
       h5 Tabla 1
       span Marco normativo nacional de economía circular
 
-    .tabla-a.color-acento-contenido.mb-5 
+    .tabla-a.color-acento-contenido.mb-5(data-aos="flip-left") 
       table
         thead
           tr.bgr_21.text-white
@@ -229,14 +229,14 @@
         .col-12.col-lg-7.mb-3
           .row.mb-3
             .col-12.col-md-6.col-lg-6.mb-3
-              .row.justify-content-center
+              .row.justify-content-center(data-aos="fade-right")
                 .col-4.col-lg-4.bgr_23
                   figure.p-2.d-flex.justify-content-center
                     img.img70(src='@/assets/curso/tema3/t3-13.svg', alt='Texto que describa la imagen')
                 .col-7.col-lg-7.bgr_24.d-flex.align-items-center
                   p.text-bold.mb-0 Eliminación del IVA.
             .col-12.col-md-6.col-lg-6
-              .row.justify-content-center  
+              .row.justify-content-center(data-aos="fade-left") 
                 .col-4.col-lg-4.bgr_23
                   figure.p-2.d-flex.justify-content-center
                     img.img70(src='@/assets/curso/tema3/t3-14.svg', alt='Texto que describa la imagen')
@@ -244,14 +244,14 @@
                   p.text-bold.mb-0 Descuento de renta.
           .row.mb-3
             .col-12.col-md-6.col-lg-6.mb-3
-              .row.justify-content-center  
+              .row.justify-content-center(data-aos="fade-right")  
                 .col-4.col-lg-4.bgr_23
                   figure.p-2.d-flex.justify-content-center
                     img.img70(src='@/assets/curso/tema3/t3-15.svg', alt='Texto que describa la imagen')
                 .col-7.col-lg-7.bgr_24.d-flex.align-items-center
                   p.text-bold.mb-0 Desgravación de renta.
             .col-12.col-md-6.col-lg-6
-              .row.justify-content-center  
+              .row.justify-content-center(data-aos="fade-left")  
                 .col-4.col-lg-4.bgr_23
                   figure.p-2.d-flex.justify-content-center
                     img.img70(src='@/assets/curso/tema3/t3-16.svg', alt='Texto que describa la imagen')
@@ -259,22 +259,22 @@
                   p.text-bold.mb-0 Devaluación acelerada.
           .row
             .col-12.col-md-6.col-lg-6
-              .row.justify-content-center  
+              .row.justify-content-center(data-aos="fade-right")  
                 .col-4.col-lg-4.bgr_23
                   figure.p-2.d-flex.justify-content-center
                     img.img70(src='@/assets/curso/tema3/t3-17.svg', alt='Texto que describa la imagen')
                 .col-7.col-lg-7.bgr_24.d-flex.align-items-center
                   p.text-bold.mb-0 Cero en arancel.
 
-        .col-12.col-lg-4
+        .col-12.col-lg-4(data-aos="fade-right")
           figure.d-flex.justify-content-center
             img.img350(src='@/assets/curso/tema3/t3-18.svg', alt='Texto que describa la imagen')
       
     .row
-      .col-12.col-lg-5.mb-3.mb-lg-0.d-lg-flex.align-items-center
+      .col-12.col-lg-5.mb-3.mb-lg-0.d-lg-flex.align-items-center(data-aos="fade-left")
         figure.d-flex.justify-content-center
           img.img500(src='@/assets/curso/tema3/t3-19.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-7
+      .col-12.col-lg-7(data-aos="fade-right")
         .bgr_2.p-4.mb-3
           p.mb-0 Durante el año 2019, la Autoridad Nacional de Licencias Ambientales (ANLA) obtuvo más de 600 solicitudes, por consiguiente, destino 462 incentivos, el 68% fue incorporado a inversiones de control, monitoreo y programas ambientales, en fuentes no convencionales de energía fue el 23%, mientras que, el 9% a eficiencia energética.
         p Los Incentivos fiscales relacionados con los beneficios ambientales, se han destinado en 338 mil millones de pesos tanto a la exclusión del impuesto al valor agregado, como a la deducción del impuesto a la renta. La inversión en las industrias del país se vio incentivada por más de $1.700 millones de pesos en 2019.
@@ -290,7 +290,7 @@
       h5 Tabla 2
       span Casos de éxito de empresas con modelos sostenibles
 
-    .tabla-a.color-acento-contenido.mb-5 
+    .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in")
       table
         caption Nota. Adaptado de la guía empresarial Economía Circular: Una forma diferente de hacer negocios sostenibles.
         thead

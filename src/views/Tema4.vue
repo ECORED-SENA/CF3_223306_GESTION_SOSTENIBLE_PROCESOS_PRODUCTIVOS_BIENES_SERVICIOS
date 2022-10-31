@@ -9,7 +9,7 @@
     
     .row.mb-5.justify-content-center
       .col-12.col-lg-10
-        .bloque-texto-a.bgr_19.p-4.p-md-5.mb-5 
+        .bloque-texto-a.bgr_19.p-4.p-md-5.mb-5(data-aos="flip-left") 
           .row.m-0.align-items-center.justify-content-between 
             .col-lg-4.mb-4.mb-lg-0
               figura.d-flex.justify-content-center
@@ -19,33 +19,33 @@
                 p.mb-0 El sistema alimentario ocupa el lugar más relevante en la bioeconomía. Estos sistemas, que incluyen la agricultura sostenible, la pesca sostenible, la silvicultura y la acuicultura, así como la producción de alimentos y piensos (alimento para animales), se complementan con bioproductos y bioenergía. Los bioproductos incluyen bioplásticos, ropa biodegradable y otros productos relacionados con el diseño ecológico. La bioenergía, como la biomasa, una de las energías renovables, mejora la seguridad del suministro energético, reduce la dependencia de la energía y crea nuevas oportunidades de crecimiento y empleo.
     
     .row.mb-5.d-flex.align-items-center
-      .col-12.col-lg-8.mb-3.mb-lg-0
+      .col-12.col-lg-8.mb-3.mb-lg-0(data-aos="fade-right")
         .bgr_2.p-5.mb-3.position-relative
           p Según la Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO), una bioeconomía es “la producción, el uso y la preservación de los recursos biológicos, incluidos el conocimiento, la ciencia, la tecnología y la innovación relacionada, para proporcionar información, productos, procesos y servicios para todos los sectores económicos hacia una economía sostenible”. 
           p.mb-0.text-bold (Iberdrola, 2021).
           img.pst_3(src='@/assets/componentes/Icon awesome-quote-right.svg', alt='Texto que describa la imagen')
           img.pst_4(src='@/assets/componentes/rect.svg', alt='Texto que describa la imagen')
         p Para impulsar la bioeconomía se necesita una estrategia adecuada con el fin de elaborar un plan de acción en el que haya participación de instituciones locales, nacionales y organismos internaciones. Se requiere de un marco político que promueva el multilateralismo y reúna esfuerzos para llevarlo a cabo. Algunos lineamientos a seguir son:
-      .col-12.col-lg-4
+      .col-12.col-lg-4(data-aos="fade-left")
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema4/t4-2.svg', alt='Texto que describa la imagen')
 
     .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-down")
         .bgr_25.p-4.h-100
           figure.d-flex.justify-content-center.mb-3
             img.img100(src='@/assets/curso/tema4/t4-3.svg', alt='Texto que describa la imagen')
           .text-center    
             p.text-bold.bgr_6 1. Incremento de inversiones en innovación, investigación y capacitación:
             p La investigación y su aplicación tienden a trabajar de manera independiente. Por esta razón, es importante fomentar la asociación con el sector público y privado.
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-up")
         .bgr_26.p-4.h-100
           figure.d-flex.justify-content-center.mb-3
             img.img100(src='@/assets/curso/tema4/t4-4.svg', alt='Texto que describa la imagen')
           .text-center    
             p.text-bold.bgr_6 2. Afianzar la coordinación política y el compromiso:
             p Aumentar la cooperación y coherencia entre iniciativas, políticas y sectores económicos conectados con la bioeconomía es esencial.
-      .col-12.col-lg-4
+      .col-12.col-lg-4(data-aos="flip-down")
         .bgr_25.p-4.h-100
           figure.d-flex.justify-content-center.mb-3
             img.img100(src='@/assets/curso/tema4/t4-5.svg', alt='Texto que describa la imagen')
@@ -82,12 +82,12 @@
     h3.bgr_4.p-3.mb-5 Producción más limpia en procesos y productos
 
     .row.mb-5
-      .col-12.col-lg-6.mb-3.mb-lg-0
+      .col-12.col-lg-6.mb-3.mb-lg-0(data-aos="fade-right")
         .bgr_27.p-4.h-100
           figure.mb-4
             img(src='@/assets/curso/tema4/t4-7.png', alt='Texto que describa la imagen')
           p.mb-0 Con respecto a los procesos, la producción más limpia abarca la preservación de materias primas como el agua y la energía, la disminución de materias primas tóxicas, en este caso, emisiones y residuos, en la cual se evita que vayan al agua, a la atmósfera o al entorno. 
-      .col-12.col-lg-6
+      .col-12.col-lg-6(data-aos="fade-left")
         .bgr_26.p-4.h-100
           figure.mb-4
             img(src='@/assets/curso/tema4/t4-8.png', alt='Texto que describa la imagen')
@@ -98,7 +98,7 @@
 
     .bg_grad-15
       .row.mb-5.p-3.p-lg-5
-        .col-12.col-md-6.col-lg-6.mb-3.mb-lg-0
+        .col-12.col-md-6.col-lg-6.mb-3.mb-lg-0(data-aos="fade-left")
           ol.lista-ol--cuadro
             li 
               .lista-ol--cuadro__vineta
@@ -132,7 +132,7 @@
               .lista-ol--cuadro__vineta
                 span h
               | Ciclo biógeno.
-        .col-12.col-md-6.col-lg-5.d-flex.align-items-center
+        .col-12.col-md-6.col-lg-5.d-flex.align-items-center(data-aos="fade-right")
           figura.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema4/t4-9.png' alt='Texto que describa la imagen')
 
@@ -151,7 +151,7 @@
     
     p.mb-5 En cuanto a políticas sostenibles en el país se tiene que:
 
-    h3.bgr_4.p-3.mb-5 Política de Sostenibilidad en Colombia
+    h3.bgr_4.p-3.mb-5(data-aos="fade-down-right") Política de Sostenibilidad en Colombia
 
     figura
       img.mb-5.d-none.d-md-flex(src='@/assets/curso/tema4/t4.svg' alt='Texto que describa la imagen')
@@ -159,10 +159,10 @@
     
     p.mb-5 Y de igual manera, algunos programas de eficiencia y ahorro de agua y energía que se han creado en Colombia son:
 
-    h3.bgr_4.p-3.mb-5 Ahorro y uso eficiente del agua y la energía
+    h3.bgr_4.p-3.mb-5(data-aos="fade-down-right") Ahorro y uso eficiente del agua y la energía
 
     .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
         .bgr_28.p-4.h-100
           figura.d-flex.justify-content-center
             img.img140.mb-3(src='@/assets/curso/tema4/t4-14.svg' alt='Texto que describa la imagen')
@@ -170,7 +170,7 @@
             .col-8
               h4.p-2.text-center.bgr_6 PUEAA
           p.mb-0 El Programa de Eficiencia y Conservación del Agua (PUEAA), es un mecanismo enfocado a mejorar el uso de los recursos hídricos y abarca una amplia gama de proyectos y acciones que deben desarrollar e implementar quienes necesitan concesiones de agua, para promover la sustentabilidad de los recursos hídricos.
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-right")
         .bgr_12.tarjeta.p-4.h-100
           figura.d-flex.justify-content-center
             img.img140.mb-3(src='@/assets/curso/tema4/t4-15.svg' alt='Texto que describa la imagen')
@@ -178,7 +178,7 @@
             .col-8
               h4.p-2.text-center.bgr_6 ANLA y PNNC
           p.mb-0 La Autoridad Nacional de Licencias Ambientales (ANLA) y Parques Nacionales Naturales de Colombia (PNNC) son organismos ambientales y otras autoridades que otorgan licencias de concesiones de agua. Asimismo, tienen responsabilidades de supervisión.
-      .col-12.col-lg-4
+      .col-12.col-lg-4(data-aos="flip-left")
         .bgr_5.tarjeta.p-4.h-100
           figura.d-flex.justify-content-center
             img.img140.mb-3(src='@/assets/curso/tema4/t4-16.svg' alt='Texto que describa la imagen')
@@ -193,15 +193,15 @@
       h2 4.3 Indicadores de uso de los recursos naturales
     
     .row.mb-5
-      .col-12.col-lg-7.order-2.order-lg-1
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p Facilitan el seguimiento y trazabilidad de lo reportado a través de estudios realizados por la Organización para la Cooperación y el Desarrollo Económico OCDE y están diseñados para alinearse con la estrategia de incorporación de los objetivos de desarrollo sostenible en Colombia. 
         p.mb-0 Estos indicadores explican dos tipos de acciones: primero, los indicadores de gestión que miden el progreso en la adopción de herramientas y actividades para lograr la transición hacia una economía circular; segundo, los indicadores de desempeño que muestran el avance real de la economía circular en términos de uso de materias primas y aumento de la eficiencia metabólica de la economía colombiana. La siguiente tabla presenta los indicadores y metas cíclicas específicas para cada flujo de material y flujo de trabajo:
-      .col-12.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0
+      .col-12.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-left")
         figura.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema4/t4-17.png' alt='Texto que describa la imagen')
     
     .row.justify-content-center
-      .col-12.col-lg-8
+      .col-12.col-lg-8(data-aos="flip-down")
         .titulo-sexto.color-acento-contenido
           h5 Tabla 3
           span Indicadores y metas agregados de la Estrategia nacional de economía circular
@@ -238,17 +238,17 @@
     
     .bg_grad-04
       .row.mb-5.justify-content-between
-        .col-12.col-lg-3.mb-3.mb-lg-0
+        .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
           figura.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema4/t4-18.svg' alt='Texto que describa la imagen')
-        .col-12.col-lg-8.d-flex.align-items-center
+        .col-12.col-lg-8.d-flex.align-items-center(data-aos="fade-right")
           p.mb-0 Mediante de instrumentos técnicos y normativos tales como políticas, resoluciones y el documento Conpes 3934 de 2018: Crecimiento verde, se han determinado indicadores asociados con el uso eficiente y ahorro del agua, de las cuales son los siguientes: 
 
     .titulo-sexto.color-acento-contenido
       h5 Tabla 4
       span Indicadores relacionados con la disminución de la demanda de agua
     
-    table.mb-5
+    table.mb-5(data-aos="flip-left")
       caption Nota. Adaptado de Gobierno de Colombia (2018). Guía para el uso eficiente y ahorro del agua, pág. 42.
       thead
         tr.bgr_21.text-white
@@ -317,7 +317,7 @@
     p.mb-5 Para la medición de la demanda de energía se caracteriza por el cálculo según la demanda comercial que está dada por los consumos propios del comercializador y la Demanda de energía del Sistema Interconectado Nacional (SIN) con base en la generación de las diferentes plantas a continuación presentamos los indicadores para su medición:
         
     .row.justify-content-center.mb-5
-      .col-12.col-lg-5.pst_2.pst_6
+      .col-12.col-lg-5.pst_2.pst_6(data-aos="flip-right")
         .tarjeta-avatar
           img.img300.w-100(src='@/assets/curso/tema4/t4-19.svg' alt='AvatarTop')
           .tarjeta.color-primario
@@ -325,7 +325,7 @@
               h4.text-center Demanda comercial:  
               p Se tiene en cuenta la demanda propia de cada comercializador más la participación en las pérdidas del Sistema de Transmisión Nacional (STN) y los consumos propios de los generadores. 
               p.mb-0 Demanda Comercial (kWh)= Demanda Real (kWh) + Pérdidas de Energía (kWh).
-      .col-12.col-lg-5.pst_2.pst_6
+      .col-12.col-lg-5.pst_2.pst_6(data-aos="flip-left")
         .tarjeta-avatar
           img.img300.w-100(src='@/assets/curso/tema4/t4-20.svg' alt='AvatarTop')
           .tarjeta.color-secundario
@@ -340,14 +340,14 @@
       h2 4.5	Responsabilidad social empresarial
 
     .row.mb-5
-      .col-12.col-lg-8.mb-3.mb-lg-0.order-2.order-lg-1
+      .col-12.col-lg-8.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
         .bgr_2.p-5.mb-3.position-relative
           p La responsabilidad social empresarial se define como: “el compromiso que tienen todas las organizaciones ante los impactos que sus decisiones y actividades generan en sus comunidades y en el medioambiente”.
           p.mb-0.text-bold  (Negocios Verdes Corpamag, 2020). 
           img.pst_3(src='@/assets/componentes/Icon awesome-quote-right.svg', alt='Texto que describa la imagen')
           img.pst_4(src='@/assets/componentes/rect.svg', alt='Texto que describa la imagen')
         p La Responsabilidad Social Empresarial ha pasado por un gran número de regulaciones e iniciativas a nivel nacional e internacional para lograr tener claridad y orientación de cómo implementar esta práctica en las organizaciones; por consiguiente, con el propósito de conocer las principales legislaciones e iniciativas en las siguientes figuras se muestra las diferentes directrices:
-      .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0
+      .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-left")
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema4/t4-21.svg', alt='Texto que describa la imagen')
 
@@ -359,7 +359,7 @@
         h4.bgr_4.p-3.mb-5 Regulaciones e Iniciativas de la RSE
     
     .row.justify-content-center.mb-5
-      .col-12.col-lg-6.col-xl-4.mb-3.mb-lg-0
+      .col-12.col-lg-6.col-xl-4.mb-3.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
           img.img120(src='@/assets/curso/tema4/t4-22.svg' alt='AvatarTop')
           .tarjeta.bgr_7
@@ -386,7 +386,7 @@
                   li
                     i.fa-li.fas.fa-check-circle.colr
                     | ISO 26000.
-      .col-12.col-lg-6.col-xl-4
+      .col-12.col-lg-6.col-xl-4(data-aos="flip-down")
         .tarjeta-avatar
           img.img120(src='@/assets/curso/tema4/t4-23.svg' alt='AvatarTop')
           .tarjeta.bgr_8
@@ -421,10 +421,10 @@
 
     .bg_grad-17
       .row.mb-5
-        .col-12.col-lg-4
+        .col-12.col-lg-4(data-aos="fade-right")
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema4/t4-24.png', alt='Texto que describa la imagen')
-        .col-12.col-lg-8.d-flex.align-items-end
+        .col-12.col-lg-8.d-flex.align-items-end(data-aos="fade-left")
           div.p-4
             figure.d-flex.justify-content-end
               img.mb-3.img100.d-none.d-lg-flex(src='@/assets/curso/tema4/t4-25.svg', alt='Texto que describa la imagen')
@@ -433,7 +433,7 @@
     p.mb-5 La implementación de la Responsabilidad Social Empresarial logra efectos positivos como:
 
     .row.mb-5.bgr_11.p-3.p-lg-4  
-      .col-12.col-lg-8.mb-3.mb-lg-0
+      .col-12.col-lg-8.mb-3.mb-lg-0(data-aos="fade-left")
         ul.fa-ul
           li
             i.fa-li.fas.fa-check-circle.colr_2
@@ -450,7 +450,7 @@
           li
             i.fa-li.fas.fa-check-circle.colr_2
             | Al cumplir con los objetivos de la RSE se mejorará la reputación entre los clientes, garantizando un valor agregado a los productos y servicios que ofrezca la empresa. 
-      .col-12.col-lg-4
+      .col-12.col-lg-4(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema4/t4-26.png', alt='Texto que describa la imagen')
 
@@ -462,10 +462,10 @@
         span Beneficios de la RSE
 
       .row
-        .col-12.col-lg-6.mb-3.mb-lg-0
+        .col-12.col-lg-6.mb-3.mb-lg-0(data-aos="fade-right")
           figure
             img.d-none.d-lg-flex(src='@/assets/curso/tema4/t4-27.svg', alt='Texto que describa la imagen')
-        .col-12.col-lg-5
+        .col-12.col-lg-5(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema4/t4-28.svg', alt='Texto que describa la imagen')
 
