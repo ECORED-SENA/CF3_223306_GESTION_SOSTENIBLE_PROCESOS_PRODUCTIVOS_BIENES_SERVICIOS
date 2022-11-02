@@ -417,7 +417,7 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable del equipo',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -469,7 +469,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Daniel Mutis',
         cargo: 'Validación de maquetación',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
