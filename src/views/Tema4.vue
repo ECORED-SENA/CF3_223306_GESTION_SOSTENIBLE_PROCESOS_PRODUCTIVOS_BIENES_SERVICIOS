@@ -36,21 +36,21 @@
           figure.d-flex.justify-content-center.mb-3
             img.img100(src='@/assets/curso/tema4/t4-3.svg', alt='Texto que describa la imagen')
           .text-center    
-            p.text-bold.bgr_6 1. Incremento de inversiones en innovación, investigación y capacitación:
+            p.text-bold.bgr_6.p-2 1. Incremento de inversiones en innovación, investigación y capacitación:
             p La investigación y su aplicación tienden a trabajar de manera independiente. Por esta razón, es importante fomentar la asociación con el sector público y privado.
       .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-up")
         .bgr_26.p-4.h-100
           figure.d-flex.justify-content-center.mb-3
             img.img100(src='@/assets/curso/tema4/t4-4.svg', alt='Texto que describa la imagen')
           .text-center    
-            p.text-bold.bgr_6 2. Afianzar la coordinación política y el compromiso:
+            p.text-bold.bgr_6.p-2 2. Afianzar la coordinación política y el compromiso:
             p Aumentar la cooperación y coherencia entre iniciativas, políticas y sectores económicos conectados con la bioeconomía es esencial.
       .col-12.col-lg-4(data-aos="flip-down")
         .bgr_25.p-4.h-100
           figure.d-flex.justify-content-center.mb-3
             img.img100(src='@/assets/curso/tema4/t4-5.svg', alt='Texto que describa la imagen')
           .text-center    
-            p.text-bold.bgr_6 3. Potencializar los mercados y la competitividad:
+            p.text-bold.bgr_6.p-2 3. Potencializar los mercados y la competitividad:
             p Se basa en brindar los conocimientos necesitados por los distintos sectores de la bioeconomía para que sean más sostenibles, tales como promover el uso de energías limpias.
     
     .tarjeta.color-primario.p-3.mb-5
@@ -247,72 +247,72 @@
     .titulo-sexto.color-acento-contenido
       h5 Tabla 4
       span Indicadores relacionados con la disminución de la demanda de agua
-    
-    table.mb-5(data-aos="flip-left")
-      caption Nota. Adaptado de Gobierno de Colombia (2018). Guía para el uso eficiente y ahorro del agua, pág. 42.
-      thead
-        tr.bgr_21.text-white
-          th(style='width:20%').text-center Instrumento
-          th(style='width:30%').text-center Estrategia-Meta 
-          th(style='width:50%').text-center Indicador 
-      tbody
-        tr
-          td(rowspan="5") Intensidad energética (TJ)
-          td(rowspan="2") Caracterización y cuantificación de la demanda de agua de cuencas priorizadas.
-          td.bgr_22.text-center Consumo sectorial anual de agua en m3
-            hr.bgr_29
-            p Unidad de PIB sectorial
-        tr
-          td.text-center Volumen de agua medido
-            hr.bgr_29
-            p Volumen de demanda total estimadol
-        tr
-          td(rowspan="2") Uso eficiente y sostenible del agua.
-          td.bgr_22.text-center % reducción de volumen usado 
-            p Volumen concesionado-Volumen captado
-            hr.bgr_29
-            p Volumen concesionado
-        tr
-          td.text-center Número de PUEAA implementado por sector
-            hr.bgr_29
-            p.mb-0 Número de PUEAA priorizados por sector 
-            P en el Plan Hídrico Nacional
+    .tabla-a.color-acento-contenido.mb-5 
+      table(data-aos="flip-left")
+        caption Nota. Adaptado de Gobierno de Colombia (2018). Guía para el uso eficiente y ahorro del agua, pág. 42.
+        thead
+          tr.bgr_21.text-white
+            th(style='width:20%').text-center Instrumento
+            th(style='width:30%').text-center Estrategia-Meta 
+            th(style='width:50%').text-center Indicador 
+        tbody
+          tr
+            td(rowspan="5") Intensidad energética (TJ)
+            td(rowspan="2") Caracterización y cuantificación de la demanda de agua de cuencas priorizadas.
+            td.bgr_22.text-center Consumo sectorial anual de agua en m3
+              hr.bgr_29
+              p Unidad de PIB sectorial
+          tr
+            td.text-center Volumen de agua medido
+              hr.bgr_29
+              p Volumen de demanda total estimadol
+          tr
+            td(rowspan="2") Uso eficiente y sostenible del agua.
+            td.bgr_22.text-center % reducción de volumen usado 
+              p Volumen concesionado-Volumen captado
+              hr.bgr_29
+              p Volumen concesionado
+          tr
+            td.text-center Número de PUEAA implementado por sector
+              hr.bgr_29
+              p.mb-0 Número de PUEAA priorizados por sector 
+              P en el Plan Hídrico Nacional
 
-        tr
-          td Incorporación de la gestión de los riesgos asociados a la disponibilidad y oferta del recurso hídrico en los instrumentos de planificación.
-          td.bgr_22  Número de municipios con índice de escasez en los rangos “medio” y “alto” que cuentan con programa de uso eficiente y ahorro del agua/ número total de municipios con índice de escasez en los rangos “medio” y “alto”.
-        tr
-          td(rowspan="2") Política Nacional producción y consumo sostenible
-          td(rowspan="2")
-          td 
-            .row
-              .col-12.col-lg-9.text-center
-                p Consumo de agua total (Miles de m<sup>3</sup>)
-                hr.bgr_29
-                p Producto Interno Bruto (KUS $ Corrientes- PPA )
-              .col-12.col-lg-2.d-flex.align-items-center.text-center.bgr_30
-                p IDEAM/Fondo Monetario Internacional
-        tr
-          td
-            .row
-              .col-12.col-lg-9.text-center
-                p Consumo de agua sector agrícola  (Miles de m<sup>3</sup>)
-                hr.bgr_29
-                p Producto Interno Bruto (KUS $ Corrientes- PPA )
-              .col-12.col-lg-2.d-flex.align-items-center.text-center.bgr_30
-                p IDEAM/Fondo Monetario Internacional
-        tr  
-          td Objetivo de desarrollo sostenible (ODS)
-          td Indicador 6.4.1
-          td Cambio en la eficiencia del uso del agua con el tiempo
-        tr
-          td Resolución 667 de 2016 del Ministerio de Ambiente y Desarrollo Sostenible
-          td Meta de programas de uso eficiente y ahorro del agua con seguimiento.
-          td Número de programas de uso eficiente y ahorro del agua con seguimiento
-        tr
-          td Conpes-Crecimiento verde
-          td Aumentar a 2030 en un 33% los ingresos generados por metro cúbico de agua extraída (pasar de 3.334 a 4.440 pesos por metro cúbico).
-          td
+          tr
+            td Incorporación de la gestión de los riesgos asociados a la disponibilidad y oferta del recurso hídrico en los instrumentos de planificación.
+            td.bgr_22  Número de municipios con índice de escasez en los rangos “medio” y “alto” que cuentan con programa de uso eficiente y ahorro del agua/ número total de municipios con índice de escasez en los rangos “medio” y “alto”.
+          tr
+            td(rowspan="2") Política Nacional producción y consumo sostenible
+            td(rowspan="2")
+            td 
+              .row
+                .col-12.col-lg-9.text-center
+                  p Consumo de agua total (Miles de m<sup>3</sup>)
+                  hr.bgr_29
+                  p Producto Interno Bruto (KUS $ Corrientes- PPA )
+                .col-12.col-lg-2.d-flex.align-items-center.text-center.bgr_30
+                  p IDEAM/Fondo Monetario Internacional
+          tr
+            td
+              .row
+                .col-12.col-lg-9.text-center
+                  p Consumo de agua sector agrícola  (Miles de m<sup>3</sup>)
+                  hr.bgr_29
+                  p Producto Interno Bruto (KUS $ Corrientes- PPA )
+                .col-12.col-lg-2.d-flex.align-items-center.text-center.bgr_30
+                  p IDEAM/Fondo Monetario Internacional
+          tr  
+            td Objetivo de desarrollo sostenible (ODS)
+            td Indicador 6.4.1
+            td Cambio en la eficiencia del uso del agua con el tiempo
+          tr
+            td Resolución 667 de 2016 del Ministerio de Ambiente y Desarrollo Sostenible
+            td Meta de programas de uso eficiente y ahorro del agua con seguimiento.
+            td Número de programas de uso eficiente y ahorro del agua con seguimiento
+          tr
+            td Conpes-Crecimiento verde
+            td Aumentar a 2030 en un 33% los ingresos generados por metro cúbico de agua extraída (pasar de 3.334 a 4.440 pesos por metro cúbico).
+            td
     
     p.mb-5 Para la medición de la demanda de energía se caracteriza por el cálculo según la demanda comercial que está dada por los consumos propios del comercializador y la Demanda de energía del Sistema Interconectado Nacional (SIN) con base en la generación de las diferentes plantas a continuación presentamos los indicadores para su medición:
         
@@ -419,16 +419,16 @@
 
     h4.bgr_4.p-3.mb-5 Ventajas y Beneficios de la RSE
 
-    .bg_grad-17
-      .row.mb-5
-        .col-12.col-lg-4(data-aos="fade-right")
-          figure.d-flex.justify-content-center
-            img.w-auto(src='@/assets/curso/tema4/t4-24.png', alt='Texto que describa la imagen')
-        .col-12.col-lg-8.d-flex.align-items-end(data-aos="fade-left")
-          div.p-4
-            figure.d-flex.justify-content-end
-              img.mb-3.img100.d-none.d-lg-flex(src='@/assets/curso/tema4/t4-25.svg', alt='Texto que describa la imagen')
-            p.mb-0 Para llevar con éxito la aplicación de la RSE a la cadena de valor, es importante revisar las etapas que esta tiene, para así, integrar las políticas de RSE en cada paso, de manera que cada área de la operación empresarial que intervenga, logre ser amigable con el medio ambiente y socialmente responsable. Al final, se debe realizar una evaluación con el fin de disminuir los costos asociados a las políticas de RSE y así garantizar el resultado final.
+    
+    .row.mb-5
+      .col-12.col-lg-4(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.w-auto(src='@/assets/curso/tema4/t4-24.png', alt='Texto que describa la imagen')
+      .col-12.col-lg-8.d-flex.align-items-end(data-aos="fade-left")
+        div.p-4.bgr_33
+          figure.d-flex.justify-content-end
+            img.mb-3.img100.d-none.d-lg-flex(src='@/assets/curso/tema4/t4-25.svg', alt='Texto que describa la imagen')
+          p.mb-0 Para llevar con éxito la aplicación de la RSE a la cadena de valor, es importante revisar las etapas que esta tiene, para así, integrar las políticas de RSE en cada paso, de manera que cada área de la operación empresarial que intervenga, logre ser amigable con el medio ambiente y socialmente responsable. Al final, se debe realizar una evaluación con el fin de disminuir los costos asociados a las políticas de RSE y así garantizar el resultado final.
     
     p.mb-5 La implementación de la Responsabilidad Social Empresarial logra efectos positivos como:
 

@@ -61,7 +61,8 @@
     
     .row.mb-5
       .col-12.col-xl-6.mb-3.mb-xl-0(data-aos="fade-right")
-        img(src='@/assets/curso/tema1/t1-5.png' alt='Texto que describa la imagen') 
+        figure.d-flex.justify-content-center
+          img.w-auto(src='@/assets/curso/tema1/t1-5.png' alt='Texto que describa la imagen') 
       .col-12.col-xl-6(data-aos="fade-left")
         p A través de la historia el ser humano ha dependido de la naturaleza para su supervivencia, por esta razón, el hombre siempre ha buscado conocerla y comprenderla. Gracias a la capacidad de razonamiento del ser humano y su inteligencia, se ha adaptado al entorno según sus necesidades y deseos. No solo se quedó en recolectar los frutos que le proporciona la naturaleza, más bien aprendió a sembrar, cosechar y mantener sus cultivos a lo largo del tiempo, mediante el desarrollo científico, industrial y tecnológico; sin embargo, el hombre no ha cuidado la naturaleza y se ha encargado de destruirla como consecuencia del impacto producido por este desarrollo.
         .bgr_2.p-4
@@ -111,15 +112,15 @@
           .tarjeta.bgr_7
             .row.justify-content-center
               .col-auto
-                h4.p-4.text-center.bgr_6   Ciclos Hidrológicos
+                h4.p-4.text-center.bgr_6.mb-0 Ciclos Hidrológicos
             p.p-4.mb-0 Son aquellos en los que participa el agua. Funciona de intermediario para el transporte de los componentes de un lugar a otro. El ciclo del agua pertenece a esta categoría.
       .col-12.col-lg-4.mb-5.mb-lg-0(data-aos="flip-left")
         .tarjeta-avatar
           img.img120(src='@/assets/curso/tema1/t1-10.svg' alt='AvatarTop')
           .tarjeta.bgr_8
-            .row.justify-content-center.mb-4
+            .row.justify-content-center
               .col-auto
-                h4.p-4.text-center.bgr_6  Ciclos Gaseosos
+                h4.p-4.text-center.bgr_6.mb-0  Ciclos Gaseosos
             p.p-4.mb-0 Son aquellos en los que participa la atmósfera para el transporte de los componentes químicos del ciclo; el ciclo del oxígeno, carbono y nitrógeno, son pertenecientes de esta categoría.
       .col-12.col-lg-4.mb-5.mb-lg-0(data-aos="flip-right")
         .tarjeta-avatar
@@ -127,7 +128,7 @@
           .tarjeta.bgr_7
             .row.justify-content-center
               .col-auto
-                h4.p-4.text-center.bgr_6  Ciclos Sedimentarios
+                h4.p-4.text-center.bgr_6.mb-0  Ciclos Sedimentarios
             p.p-4.mb-0 Son aquellos en los que el transporte del componente químico resulta por sedimentación, es decir, por su reducida acumulación e intercambio en la corteza terrestre, en particular, el ciclo del fósforo.
     
     .row.bgr_5.p-4.mb-5
@@ -144,18 +145,18 @@
     .tarjeta.bgr_9.p-4.mt-5.mb-5(data-aos="zoom-in")
       SlyderA(tipo="b")
         .row.p-3.p-lg-5
-          .col-12.col-lg-6.mb-4.mb-lg-0
+          .col-12.col-xl-6.mb-4.mb-xl-0
             h4 Ciclo del nitrógeno
             p Se basa en que los microorganismos procariotas (más conocidos como bacterias) y las plantas toman en sus cuerpos el nitrógeno y a partir de él, sintetizan las moléculas orgánicas necesarias y aprovechables por las plantas; que posteriormente, son consumidas por animales herbívoros y estos a partir de sus tejidos a los carnívoros y omnívoros; finalmente, el nitrógeno retorna al ambiente a través de la orina y la descomposición de los organismos muertos y su posterior transformación bacteriana en nitrógeno atmosférico de nuevo. El nitrógeno es uno de los gases predominantes en la atmósfera.
             a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
               span Ampliar imagen
               i.fas.fa-search-plus
               .indicador--click(v-if="mostrarIndicador")
-          .col-12.col-lg-6
+          .col-12.col-xl-6
             figure
               img(src='@/assets/curso/tema1/t1-12.svg', alt='Texto que describa la imagen')
         .row.p-3.p-lg-5
-          .col-12.col-lg-6.mb-4.mb-lg-0
+          .col-12.col-xl-6.mb-4.mb-xl-0
             h4 Ciclo del carbono 
             p Es el más complejo e importante de todos los ciclos biogeoquímicos, puesto que toda la vida existente requiere de compuestos derivados de estos elementos. Este ciclo incorpora procesos metabólicos vitales de las plantas y animales como la fotosíntesis y la respiración.
             p La captación se realiza desde la atmósfera, en forma de Dióxido de Carbono (CO2) a través de las plantas, algas y algunas bacterias, las cuales lo transforman en azúcares simples por medio de procesos fotosintéticos y permiten su ingreso y circulación en la cadena trófica, hasta el retorno de este al ambiente por medio de la respiración de los organismos y su degradación tras la muerte.
@@ -163,11 +164,11 @@
               span Ampliar imagen
               i.fas.fa-search-plus
               .indicador--click(v-if="mostrarIndicador")
-          .col-12.col-lg-6
+          .col-12.col-xl-6
             figure
               img(src='@/assets/curso/tema1/t1-13.svg', alt='Texto que describa la imagen')
         .row.p-3.p-lg-5
-          .col-12.col-lg-6.mb-4.mb-lg-0
+          .col-12.col-xl-6.mb-4.mb-xl-0
             h4 Ciclo del fósforo 
             p Es uno de los más complejos porque es un componente abundante en la corteza terrestre de clase mineral, aunque los seres vivos especialmente, lo requieren en cantidades leves. Este elemento forma parte de compuestos importantes como el ADN y el ARN.
             p El fósforo ingresa a la cadena trófica a través de las plantas y los microorganismos y, proviene principalmente de la degradación de minerales, sus principales vías de movimiento son por medio acuático.
@@ -175,7 +176,7 @@
               span Ampliar imagen
               i.fas.fa-search-plus
               .indicador--click(v-if="mostrarIndicador")
-          .col-12.col-lg-6
+          .col-12.col-xl-6
             figure
               img(src='@/assets/curso/tema1/t1-14.svg', alt='Texto que describa la imagen')
 
@@ -306,32 +307,32 @@
       SlyderA(tipo="b")
         .row.p-3.p-lg-5
           h4 Metabolismo de la economía Colombiana
-          .col-12.col-lg-5.mb-4.mb-lg-0
+          .col-12.col-xl-5.mb-4.mb-xl-0
             p Según la OCDE y CEPAL (2014), Colombia posee y se caracteriza por su riqueza en los recursos naturales y el país tiene el 10 % de la biodiversidad a nivel mundial, compuesta por un territorio predominante del 50 % de bosque.
             .bgr_5.p-3.mb-3
               p.mb-0 La economía colombiana se posiciona en el puesto 39 con una participación del 0,39 % de la economía mundial
             p Según FEDESARROLLO (2018), las actividades económicas que más se destacan son el comercio (12,2 %), la industria (10,9 %), la construcción (7,2%), el transporte (7%), la agricultura (7,4 %) y la minería (6,1 %). 
             p Colombia ha sido una de las economías más fuertes de la región con un promedio de 3% anual durante las últimas dos décadas. Además, dispone con 1’214,258 Mm3/año de recurso hídrico disponible, es decir, equivale a un per cápita de 28,370 m3 de agua comparado con  900m3 per cápita en países de la OCDE.
-          .col-12.col-lg-7
+          .col-12.col-xl-7
             figure
               img(src='@/assets/curso/tema1/t1-24.png', alt='Texto que describa la imagen')
         .row.p-3.p-lg-5
           h4 Metabolismo de la economía Colombiana
-          .col-12.col-lg-5.mb-4.mb-lg-0
+          .col-12.col-xl-5.mb-4.mb-xl-0
             p Además, dispone de fuentes de agua entre las que se encuentran, la subterránea, agua lluvia y la superficial. Están localizadas de forma moderada en regiones vulnerables al desabastecimiento. 
             .bgr_5.p-3.mb-3
               p.mb-0 Con respecto a la producción del uso del agua, Colombia está relacionada con la baja productividad del sector agropecuario, una de las principales industrias consumidoras de agua. Colombia genera 18.9 de dólares por cada metro cúbico de agua extraída.
             p En tal sentido, en el agua utilizada para riego en actividades agrícolas, la pérdida es del 48% (7.732,9 millones m3), pese a que, para la industria ganadera la pérdida es cercana al 40%, al igual que para el sector ganadero con industria. 
-          .col-12.col-lg-7
+          .col-12.col-xl-7
             figure
               img(src='@/assets/curso/tema1/t1-25.png', alt='Texto que describa la imagen')
         .row.p-3.p-lg-5
           h4 Metabolismo de la economía Colombiana
-          .col-12.col-lg-5.mb-4.mb-lg-0
+          .col-12.col-xl-5.mb-4.mb-xl-0
             p Los insumos de materias primas, agua y energía en la economía colombiana se reflejan en la extracción interna de 400 millones toneladas de materias primas, y las importaciones calculadas en 21 millones de toneladas. 
             p En el caso particular de las fuentes de energía primaria, el país cuenta con una oferta neta de 1.884 Pj  las cuales están representadas en gran parte por hidrocarburos con un 76 %, la energía hidráulica con el 12 %, la biomasa con el  11 % y solamente el 1 % representa otras energías renovables. 
             p Cabe señalar que casi el 80 % los hidrocarburos que se extraen en el país se exportan y las importaciones no constituyen un valor significativo.
-          .col-12.col-lg-7
+          .col-12.col-xl-7
             figure
               img(src='@/assets/curso/tema1/t1-26.png', alt='Texto que describa la imagen')
 

@@ -59,7 +59,7 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_20(data-aos="zoom-out")
       .row(titulo="Actividades primarias")
-        .col-12.col-lg-8.mb-4.mb-md-0.px-5.py-3
+        .col-12.col-xl-8.mb-4.mb-xl-0.px-5.py-3
           p El propósito principal es agregar valor y diseñar una ventaja competitiva. Estas actividades se componen por cinco aspectos:
           ol.lista-ol--cuadro
             li 
@@ -82,11 +82,11 @@
               .lista-ol--cuadro__vineta
                 span 15              
               | Servicio: el último aspecto trata de los programas de mejora de la experiencia del cliente y del producto, a través de la atención al cliente, el mantenimiento, la reparación, la sustitución o el cambio de producto.
-        .col-12.col-lg-4
+        .col-12.col-xl-4
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema5/t5-4.png', alt='Texto que describa la imagen')
       .row(titulo="Actividades secundarias ")
-        .col-12.col-lg-8.mb-4.mb-md-0.px-5.py-3
+        .col-12.col-xl-8.mb-4.mb-xl-0.px-5.py-3
           p Su función principal es de incrementar la eficiencia de las actividades primarias. Están compuestas por:
           ol.lista-ol--cuadro
             li 
@@ -105,7 +105,7 @@
               .lista-ol--cuadro__vineta
                 span 4
               | Infraestructura: son los sistemas y departamentos que lo conforman como contabilidad, finanzas, producción, control de calidad y demás.
-        .col-12.col-lg-4
+        .col-12.col-xl-4
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema5/t5-5.png', alt='Texto que describa la imagen')
     
@@ -164,15 +164,15 @@
 
     .bg_grad-21
       .row.mb-5
-        .col-12.col-lg-8.px-5.py-3.mb-3.mb-lg-0(data-aos="fade-right")
+        .col-12.col-xl-8.px-5.py-3.mb-3.mb-xl-0(data-aos="fade-right")
           .row.d-flex.align-items-center
-            .col-12.col-lg-auto
+            .col-12.col-xl-auto
               figure
-                img.mb-3.img100.d-none.d-lg-flex(src='@/assets/curso/tema5/t5-8.svg', alt='Texto que describa la imagen')
-            .col-12.col-lg-10
+                img.mb-3.img100.d-none.d-xl-flex(src='@/assets/curso/tema5/t5-8.svg', alt='Texto que describa la imagen')
+            .col-12.col-xl-10
                 p El objetivo de la cadena de suministro de circuito cerrado o modelo de suministro de circuito cerrado es reducir el volumen de materias primas esenciales en la cadena de producción a través de la recuperación y reutilización de materiales después del consumo. Se deben hacer esfuerzos para garantizar que el desarrollo del producto se diseñe con materiales que se puedan convertir, reciclar y reutilizar para su reintegración en la cadena de producción.
           p.mb-0 Los beneficios de la integración de la cadena de suministro de circuito cerrado no son inmediatos, incluso es posible que la empresa incurra inicialmente en más costos de los que ahorra al adoptar el modelo, debido a las inversiones en logística inversa, la adaptabilidad de la cadena de producción y el desarrollo de productos como los envases más ecológicos, entre otras cosas. Los beneficios de este modelo de abastecimiento son una mayor competitividad, retornos financieros, menos desperdicio y mayor conocimiento de la marca.
-        .col-12.col-lg-4(data-aos="fade-left")
+        .col-12.col-xl-4(data-aos="fade-left")
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema5/t5-9.png', alt='Texto que describa la imagen')
     
@@ -281,53 +281,53 @@
             h4 Bambú
             p.mb-0 El bambú o también conocido como acero vegetal, es un recurso sustitutivo de la madera en todas sus versiones. Es sostenible desde su cultivo, ya que mantiene los niveles hídricos de la tierra, evade la erosión y su crecimiento es tres veces más rápido que un árbol maderable convencional. Generalmente, se emplea como material estructural, para elaborar bioplásticos y fibras textiles.
           .col-12.col-lg-4.d-flex.align-items-center
-            figure
-              img(src='@/assets/curso/tema5/t5-18.png', alt='Texto que describa la imagen')
+            figure.d-flex.justify-content-center
+              img.w-auto(src='@/assets/curso/tema5/t5-18.png', alt='Texto que describa la imagen')
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Lana y Seda")
         .row.p-4
           .col-12.col-lg-8.mb-3.mg-lg-0
             h4 Lana y Seda
             p.mb-0 Los fundamentos de la sostenibilidad se pueden incorporar a productos textiles donde el origen y uso de las materias primas utilizadas sean 100% naturales y responsables, como por ejemplo, la lana o la seda que provienen de una producción respetuosa con el medio ambiente y los involucrados en el proceso de cosecha y producción, pueden beneficiarse de buenas condiciones de salud, seguridad y compensación económica. El proceso de fabricación puede tener menos impacto en el medio ambiente, porque se produce en pequeñas cantidades sucesivas. El producto final del ciclo de vida y la larga vida útil, serán materiales reciclables y, finalmente, materiales degradables.
           .col-12.col-lg-4.d-flex.align-items-center
-            figure
-              img(src='@/assets/curso/tema5/t5-19.png', alt='Texto que describa la imagen')
+            figure.d-flex.justify-content-center
+              img.w-auto(src='@/assets/curso/tema5/t5-19.png', alt='Texto que describa la imagen')
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Fibras vegetales")
         .row.p-4
           .col-12.col-lg-8.mb-3.mg-lg-0
             h4 Fibras vegetales
             p.mb-0 Aquellas fibras vegetales como el esparto, el mimbre, el abacá, el cáñamo, entre otros, son considerados materiales sostenibles. Si se han aplicado con barniz sintético o pegamentos ajenos ya no son considerados como materiales sostenibles.
           .col-12.col-lg-4.d-flex.align-items-center
-            figure
-              img(src='@/assets/curso/tema5/t5-20.png', alt='Texto que describa la imagen')
+            figure.d-flex.justify-content-center
+              img.w-auto(src='@/assets/curso/tema5/t5-20.png', alt='Texto que describa la imagen')
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Corcho")
         .row.p-4
           .col-12.col-lg-8.mb-3.mg-lg-0
             h4 Corcho
             p.mb-0 El alcornocal es un ecosistema cerrado, habitado y protegido por muchas especies diferentes de plantas y animales, que es resistente a la erosión, repone los niveles freáticos, produce oxígeno y reduce las emisiones de dióxido de carbono. El control y procesamiento exitoso del alcornoque proporciona un recurso constantemente renovable. Es un buen amortiguador, soporta el impacto sin deformarse, es aislante acústico y térmico, además, es un material ligero. El corcho proporciona una arquitectura climática de alto rendimiento.
           .col-12.col-lg-4.d-flex.align-items-center
-            figure
-              img(src='@/assets/curso/tema5/t5-21.png', alt='Texto que describa la imagen')
+            figure.d-flex.justify-content-center
+              img.w-auto(src='@/assets/curso/tema5/t5-21.png', alt='Texto que describa la imagen')
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Algas")
         .row.p-4
           .col-12.col-lg-8.mb-3.mg-lg-0
             h4 Algas
             p.mb-0 Desde el inicio y el fin del ciclo de vida del cultivo de las algas, es un material sostenible. Cuando el producto ya no se usa, el material se biodegrada sin dejar huella, ni residuo.
           .col-12.col-lg-4.d-flex.align-items-center
-            figure
-              img(src='@/assets/curso/tema5/t5-22.png', alt='Texto que describa la imagen')
+            figure.d-flex.justify-content-center
+              img.w-auto(src='@/assets/curso/tema5/t5-22.png', alt='Texto que describa la imagen')
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Residuos de Agricultura")
         .row.p-4
           .col-12.col-lg-8.mb-3.mg-lg-0
             h4 Residuos de Agricultura
             p.mb-0 Residuos como semillas, espigas o cáscaras se pueden utilizar para la elaboración de nuevos materiales sustitutos de plásticos, papeles o madera. Por ejemplo, hay paneles hechos del bagazo de la caña de azúcar y se elaboran estos revestimientos con texturas en 3D. Ahora, las empresas manufactureras recuperan sobrantes, desarrollando con ellos nuevas aplicaciones y materiales que disminuyan la explotación de otras materias primas.
           .col-12.col-lg-4.d-flex.align-items-center
-            figure
-              img(src='@/assets/curso/tema5/t5-23.png', alt='Texto que describa la imagen')
+            figure.d-flex.justify-content-center
+              img.w-auto(src='@/assets/curso/tema5/t5-23.png', alt='Texto que describa la imagen')
     
     separador
 
     #t_5_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 5.5.	Empaques y embalajes
+      h2 5.5	Empaques y embalajes
     
     p.mb-5 Los envases y embalajes protegen las mercancías, facilitan su transporte y su diseño es fundamental para su comercialización. Se distinguen por:
 
@@ -337,7 +337,7 @@
           figure.d-flex.justify-content-center.mb-3
             img.img100(src='@/assets/curso/tema5/t5-24.svg', alt='Texto que describa la imagen')
           .row.justify-content-center
-            .col-12.col-lg-8.text-center    
+            .col-12.col-xl-8.text-center    
               p.text-bold.bgr_6 1. Empaque 
               p Es el que protege, sostiene y conserva la mercancía. Por ejemplo: cartones, botellas, paquetes, sobres, etc.
       .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-up")
@@ -345,7 +345,7 @@
           figure.d-flex.justify-content-center.mb-3
             img.img100(src='@/assets/curso/tema5/t5-25.svg', alt='Texto que describa la imagen')
           .row.justify-content-center
-            .col-12.col-lg-8.text-center    
+            .col-12.col-xl-8.text-center    
               p.text-bold.bgr_6 2. Embalaje secundario
               p Son los cartones de carga para almacenamiento o transporte que están fabricados con diferentes materiales de soporte.
       .col-12.col-lg-4(data-aos="flip-down")
@@ -353,7 +353,7 @@
           figure.d-flex.justify-content-center.mb-3
             img.img100(src='@/assets/curso/tema5/t5-26.svg', alt='Texto que describa la imagen')
           .row.justify-content-center
-            .col-12.col-lg-8.text-center    
+            .col-12.col-xl-8.text-center    
               p.text-bold.bgr_6 3. Embalaje terciario 
               p Destinado a soportar grandes cantidades de embalaje secundario para que no se dañen durante el transporte o almacenamiento.
     

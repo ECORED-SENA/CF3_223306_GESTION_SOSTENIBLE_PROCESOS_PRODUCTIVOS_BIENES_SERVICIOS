@@ -124,7 +124,7 @@
         .bgr_11.p-4
           p.mb-0 Por esta razón, las empresas requieren enormes cantidades de recursos naturales para producir bienes esenciales que millones de consumidores en todo el mundo tienen que adquirir, situación insostenible según Kate Raworth (2018), quien señala que la actividad económica debe primar en un espacio soportado por las normas ambientales y sociales. 
         p.mt-3 En la práctica, esto significa que cada individuo tiene acceso a bienes básicos como alimentación, salud y vivienda con los recursos disponibles en el planeta. Kate Raworth (2018), resalta que es necesario avanzar y fortalecer las acciones distributivas y regenerativas, por lo que se deben planificar actividades para que esos valores se transfieran desde el inicio, a través de la redistribución de la riqueza, que no solo se refiere al dinero, sino también a la tierra, los vehículos y los negocios que pueden generar ganancias.
-      .col-12.col-lg-4(data-aos="fade-left")
+      .col-12.col-lg-4(data-aos="fade-left").d-flex.align-items-center
         figurad.d-flex.justify-content-center
           img.img400(src='@/assets/curso/tema2/t2-9.png' alt='Texto que describa la imagen')
 
