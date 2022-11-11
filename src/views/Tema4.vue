@@ -214,20 +214,20 @@
                 th Línea base 
                 th Meta 2030 
             tbody
-              tr.bgr_22
-                td.text-center Intensidad energética (TJ)
+              tr.bgr_22.text-center
+                td Intensidad energética (TJ)
                 td 3,7 (2015)
                 td 2,9
-              tr
-                td.text-center Productividad hídrica ($)
+              tr.text-center
+                td Productividad hídrica ($)
                 td 4.775 (2015)
                 td 5,495
-              tr
-                td.text-center Tasa de reciclaje (%)
+              tr.text-center
+                td Tasa de reciclaje (%)
                 td 8,60 (2015)
                 td 17,9
-              tr
-                td.text-center Reducción de gases de efecto invernadero (%)
+              tr.text-center
+                td Reducción de gases de efecto invernadero (%)
                 td 0 (2010)
                 td 20
     
@@ -242,7 +242,7 @@
           figura.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema4/t4-18.svg' alt='Texto que describa la imagen')
         .col-12.col-lg-8.d-flex.align-items-center(data-aos="fade-right")
-          p.mb-0 Mediante de instrumentos técnicos y normativos tales como políticas, resoluciones y el documento Conpes 3934 de 2018: Crecimiento verde, se han determinado indicadores asociados con el uso eficiente y ahorro del agua, de las cuales son los siguientes: 
+          p.mb-0 Mediante de instrumentos técnicos y normativos tales como políticas, resoluciones y el documento CONPES 3934 de 2018: Crecimiento verde, se han determinado indicadores asociados con el uso eficiente y ahorro del agua, de las cuales son los siguientes: 
 
     .titulo-sexto.color-acento-contenido
       h5 Tabla 4
@@ -257,9 +257,9 @@
             th(style='width:50%').text-center Indicador 
         tbody
           tr
-            td(rowspan="5") Intensidad energética (TJ)
+            td(rowspan="5") Política nacional para la gestión del recurso hídrico
             td(rowspan="2") Caracterización y cuantificación de la demanda de agua de cuencas priorizadas.
-            td.bgr_22.text-center Consumo sectorial anual de agua en m3
+            td.bgr_22.text-center Consumo sectorial anual de agua en m<sup>3</sup>
               hr.bgr_29
               p Unidad de PIB sectorial
           tr
@@ -310,7 +310,7 @@
             td Meta de programas de uso eficiente y ahorro del agua con seguimiento.
             td Número de programas de uso eficiente y ahorro del agua con seguimiento
           tr
-            td Conpes-Crecimiento verde
+            td CONPES-Crecimiento verde
             td Aumentar a 2030 en un 33% los ingresos generados por metro cúbico de agua extraída (pasar de 3.334 a 4.440 pesos por metro cúbico).
             td
     
@@ -392,7 +392,7 @@
           .tarjeta.bgr_8
             .row.justify-content-center
               .col-8
-                h4.p-4.text-center.bgr_6  Principios y Directrices a Nivel Internacional
+                h4.p-4.text-center.bgr_6  Leyes y Normas en Colombia
               .col-11
                 ul.fa-ul
                   li

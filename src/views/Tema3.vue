@@ -99,8 +99,8 @@
 
     .bg_grad-12
       .row.mb-5
-        .col-12.col-lg-10.d-flex.align-items-end
-          p.text-white Mediante los cuales busca utilizar la mayor cantidad posible de materiales biodegradables en la producción de bienes de consumo (nutrientes biológicos), para que puedan ser devueltos a la naturaleza sin dañar el medio ambiente, ámbito en el que se agota su vida útil.
+        .col-12.col-lg-10.d-flex.align-items-center
+          p.mb-0.text-white Mediante los cuales busca utilizar la mayor cantidad posible de materiales biodegradables en la producción de bienes de consumo (nutrientes biológicos), para que puedan ser devueltos a la naturaleza sin dañar el medio ambiente, ámbito en el que se agota su vida útil.
         .col-12.col-lg-2
           figura.d-flex.justify-content-center
             img.img180(src='@/assets/curso/tema3/t3-4.svg' alt='Texto que describa la imagen')
@@ -213,9 +213,9 @@
             td Aprovechamiento de residuos de construcción y demolición (RCDs).
           tr
             td.text-bold.p-4 Resolución 1407 de 2018
-            td Responsabilidad Extendida del Productor para envases y empaques
+            td Responsabilidad Extendida del Productor para envases y empaques.
 
-    p Si desea conocer en detalle cada una de las normativas descritas, puede ingresar en la web y consultarlas.
+    p Si desea conocer en detalle cada una de las normativas descritas, puede ingresar en la <em>web</em> y consultarlas.
 
     separador
 

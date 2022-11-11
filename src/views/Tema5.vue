@@ -21,7 +21,7 @@
       .row.justify-content-center.mb-5
         .col-12.col-lg-8(data-aos="zoom-in")
           .titulo-sexto.color-acento-contenido
-            h5 Figura 9
+            h5 Figura 10
             span Cadena de valor
           figura
             img(src='@/assets/curso/tema5/t5-2.svg' alt='Texto que describa la imagen')
@@ -80,7 +80,7 @@
               span <em>Marketing</em> y ventas: está conformada por las estrategias pertinentes para mejorar la imagen y llegar de manera adecuada a los clientes, por medio de la publicidad, la promoción y la fijación de precios.
             li 
               .lista-ol--cuadro__vineta
-                span 15              
+                span 5             
               | Servicio: el último aspecto trata de los programas de mejora de la experiencia del cliente y del producto, a través de la atención al cliente, el mantenimiento, la reparación, la sustitución o el cambio de producto.
         .col-12.col-xl-4
           figure.d-flex.justify-content-center
@@ -186,7 +186,7 @@
 
     .bg_grad-18
       .titulo-sexto.color-acento-contenido
-        h5 Figura 10
+        h5 Figura 11
         span Ejemplo de Cadena de suministros de círculo cerrado
 
       .row
@@ -196,7 +196,7 @@
         .col-12.col-lg-6(data-aos="fade-right")
           figure
             img(src='@/assets/curso/tema5/t5-12.svg', alt='Texto que describa la imagen')
-        figcaption.mt-3 Nota. Adaptado de Solupartes (2018). Closed loop supply chain: concepto y relevancia en el mercado. 
+        figcaption.mt-3 Nota. Adaptado de Solupartes (2018). <em>Closed loop supply chain:</em> concepto y relevancia en el mercado. 
     
     separador
 
@@ -223,7 +223,7 @@
      
     .bg_grad-14.p-4
       .titulo-sexto.color-acento-contenido
-        h5 Figura 11
+        h5 Figura 12
         span Ejemplo de Logística inversa
 
       .row
@@ -240,7 +240,7 @@
           img.d-none.d-lg-flex(src='@/assets/curso/tema5/t5-16.png', alt='Texto que describa la imagen')
       .col-12.col-lg-8.d-flex.align-items-center(data-aos="fade-left")
         div
-          p En los e-commerce (comercio electrónico), se deben optimizar los costos logísticos; por esta razón, el proceso de logística inversa debe estar bien organizado y ejecutado de modo sustentable en aspectos económicos porque permite el ahorro de dinero y tiempo.
+          p En los <em>e-commerce</em> (comercio electrónico), se deben optimizar los costos logísticos; por esta razón, el proceso de logística inversa debe estar bien organizado y ejecutado de modo sustentable en aspectos económicos porque permite el ahorro de dinero y tiempo.
           .bgr_5.p-4
             p.mb-0 La importancia de la logística inversa ejerce un rol esencial para brindar un buen servicio de devolución, la cual mejora la experiencia de compra, fomenta la fidelización del cliente, aumenta las ventas e impulsan la competitividad en el mercado.
     
@@ -251,8 +251,8 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.mb-1 <em>Brain Logistics</em>, Logística
-              p.text-small Para conocer más acerca de este tema, se recomienda ver el video de <em>Brain Logistics</em>, “Logística que se encuentra en el material complementario de este componente formativo. 
+              h3.mb-1 <em>Brain Logistics</em>, Logística Inversa
+              p.text-small Para conocer más acerca de este tema, se recomienda ver el video de <em>Brain Logistics</em>, "Logística inversa" que se encuentra en el material complementario de este componente formativo. 
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=qwZg7zLS_Ms" target="_blank")
                 span Ir al enlace

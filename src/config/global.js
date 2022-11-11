@@ -425,7 +425,7 @@ export default {
         nombre: 'May Stefanny González Verjel',
         cargo: 'Experta temática',
         centro:
-          'Centro de Industria empresa y servicios regionales - Regional Norte de Santander',
+          'Centro de la Industria empresa y servicios - Regional Norte de Santander',
       },
       {
         nombre: 'Luz Aída Quintero Velásquez',

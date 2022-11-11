@@ -16,10 +16,20 @@
           span Bosque manglar de día
         
         figura(data-aos="zoom-in-up")
-          img(src='@/assets/curso/tema1/t1-1.png' alt='Texto que describa la imagen') 
+          img.mb-3(src='@/assets/curso/tema1/t1-1.png' alt='Texto que describa la imagen') 
         
-        .cajon.bgr_1.p-4.mt-3(data-aos="flip-down")
-          p.mb-0 Para ampliar el tema sobre el Ecosistema, se recomienda ver el video sobre: “Definición y Tipos de Ecosistema” de Ecología Verde (2020), que se encuentra en el material complementario de este componente formativo.
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/componentes/dwv.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 “Definición y Tipos de Ecosistema” de Ecología Verde (2020)
+                  p.text-small Para ampliar el tema sobre el Ecosistema, se recomienda ver el video sobre: “Definición y Tipos de Ecosistema” de Ecología Verde (2020), que se encuentra en el material complementario de este componente formativo.
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=3LeeVif_qSQ" target="_blank")
+                    span Ir al enlace
     
     separador
 
@@ -192,7 +202,7 @@
 
     h4.bgr_4.p-3.mb-5(data-aos="fade-down-right") Flujos y transformación de energía
 
-    p.mb-5 Los seres vivos que habitan en un ecosistema necesitan energía y materia para la realización de sus ocupaciones primordiales. Por lo tanto, para poder realizar su ciclo de vida lo seres vivos están clasificados en diferentes niveles, según el modo que obtienen la materia o energía; estos niveles son:
+    p.mb-5 Los seres vivos que habitan en un ecosistema necesitan energía y materia para la realización de sus ocupaciones primordiales. Por lo tanto, para poder realizar su ciclo de vida, los seres vivos están clasificados en diferentes niveles, según el modo que obtienen la materia o energía; estos niveles son:
 
     .row.mb-5
       .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-up")
