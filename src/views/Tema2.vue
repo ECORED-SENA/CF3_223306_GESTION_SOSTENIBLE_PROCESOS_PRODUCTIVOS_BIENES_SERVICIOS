@@ -95,7 +95,7 @@
       h2 2.2 Economía de rosquilla
     
     p La economía de rosquilla o <em>donut</em>, es una teoría planteada por una economista británica Kate Raworth en el año 1970, en la cual conciencia la necesidad de enfrentar los desafíos sociales y económicos del siglo XXI con un pensamiento totalmente distinto.
-    p.mb-5 Esta economista postula una nueva forma de pensar la economía del siglo en curso y la representa en dos círculos concéntricos donde forma una especie de rosquilla o donut como lo muestra la siguiente figura:
+    p.mb-5 Esta economista postula una nueva forma de pensar la economía del siglo en curso y la representa en dos círculos concéntricos donde forma una especie de rosquilla o <em>donut</em> como lo muestra la siguiente figura:
 
     .bg_grad-02
       .row.justify-content-end
